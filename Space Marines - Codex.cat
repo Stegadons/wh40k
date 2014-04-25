@@ -10446,7 +10446,14 @@
                 <characteristic characteristicId="5361766523232344415441232323" name="Save" value="3+"/>
                 <characteristic characteristicId="506723232344415441232323" name="Pg" value="83"/>
               </characteristics>
-              <modifiers/>
+              <modifiers>
+                <modifier type="hide" field="556e6974205479706523232344415441232323" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="9283fd14-af24-495f-ae7b-da332d5c30a4" childId="d8229382-c38d-ea14-c481-d3e1bf655394" field="selections" type="greater than" value="0.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
             </profile>
           </profiles>
           <links>
