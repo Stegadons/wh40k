@@ -1001,14 +1001,7 @@
         </entryGroup>
       </entryGroups>
       <modifiers/>
-      <rules>
-        <rule id="a08c36c2-c26f-f305-4fc8-3fde40dd1494" name="And They Shall Know no Fear" hidden="false" page="0">
-          <modifiers/>
-        </rule>
-        <rule id="52f754b1-ea9f-7c1c-5845-d7d5848fabba" name="Independent Character" hidden="false" page="0">
-          <modifiers/>
-        </rule>
-      </rules>
+      <rules/>
       <profiles>
         <profile id="d90d31d2-d293-a9b3-b4d0-6f1b5f0e09bb" profileTypeId="556e697423232344415441232323" name="Captain" hidden="false" book="Codex: Space Marines" page="79">
           <characteristics>
@@ -1078,6 +1071,12 @@
           <modifiers/>
         </link>
         <link id="5401a196-da16-47b4-72e4-8738c436de75" targetId="15f12b40-90ae-a6cf-a89c-637f09456817" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9f3e9272-a4cb-9207-001c-a15aa4bcbd4e" targetId="6e071b9e-25bf-6dba-4ea6-f9bdf276b069" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5087aef9-9591-d3e4-f380-bb727cc0c778" targetId="b0a75006-da49-ae36-212f-9059c11f2821" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -1858,13 +1857,7 @@
       </entryGroups>
       <modifiers/>
       <rules>
-        <rule id="f7ee3eb9-3e0e-c211-3c96-48a3949afe60" name="Liturgies of Battle" hidden="false" page="0">
-          <modifiers/>
-        </rule>
         <rule id="71bc045b-8283-5227-c8db-0306a2e0280a" name="Honour of the Chapter" hidden="false" page="0">
-          <modifiers/>
-        </rule>
-        <rule id="c12928aa-9b18-df96-6be9-52df5583b2f6" name="Independent Character" hidden="false" page="0">
           <modifiers/>
         </rule>
       </rules>
@@ -1891,6 +1884,9 @@
           <modifiers/>
         </link>
         <link id="14ff8202-9c40-46da-ff12-53e3ce5fa81d" targetId="edbeffb9-925c-2f9e-b54e-64f5d59e634a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="d59938ff-4673-42da-fb31-e154c1ab02d4" targetId="6e071b9e-25bf-6dba-4ea6-f9bdf276b069" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -14257,6 +14253,9 @@
       <modifiers/>
     </rule>
     <rule id="91f82b5f-839f-9019-d979-095f04d79166" name="Very Bulky" hidden="false" page="0">
+      <modifiers/>
+    </rule>
+    <rule id="6e071b9e-25bf-6dba-4ea6-f9bdf276b069" name="Independent Character" hidden="false" page="0">
       <modifiers/>
     </rule>
   </sharedRules>
