@@ -1855,53 +1855,6 @@
           </modifiers>
           <links/>
         </entryGroup>
-        <entryGroup id="a10616dc-d344-26ae-166a-9fe3c08ca0ca" name="Chapter Relics" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
-          <entries>
-            <entry id="0ea3411b-5d71-4d57-c264-5628ee69af10" name="The Primarch&apos;s Wrath" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="91b9532b-1059-85f3-414f-b307aa9dd40a" name="Teeth of Terra" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="eb6e3fe9-b3d2-ca03-75ce-21fa41af289a" name="The Shield Eternal" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="2704f348-a772-5967-54fd-e755f7a9156d" name="The Burning Blade" points="55.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="d3355c3e-178c-38e9-310e-bd72225958c1" name="The Armor Indomitus" points="60.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
       </entryGroups>
       <modifiers/>
       <rules>
@@ -1935,6 +1888,9 @@
       </profiles>
       <links>
         <link id="6b049926-2a2c-ad7c-77a7-d8b82dbfcd4c" targetId="15f12b40-90ae-a6cf-a89c-637f09456817" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="14ff8202-9c40-46da-ff12-53e3ce5fa81d" targetId="edbeffb9-925c-2f9e-b54e-64f5d59e634a" linkType="entry group">
           <modifiers/>
         </link>
       </links>
