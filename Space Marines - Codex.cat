@@ -303,34 +303,17 @@
         </link>
       </links>
     </entry>
-    <entry id="d5cdec62-42b7-4d55-8e7a-385bf88e060e" name="Attack Bike Squadron" points="0.0" categoryId="466173742041747461636b23232344415441232323" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="d5cdec62-42b7-4d55-8e7a-385bf88e060e" name="Attack Bike Squad" points="0.0" categoryId="466173742041747461636b23232344415441232323" type="unit" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" book="Codex: Space Marines" page="84">
       <entries/>
       <entryGroups>
         <entryGroup id="2b75ee49-809f-6fc9-1411-01ce8bdc269f" name="Attack Bikes" minSelections="1" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
           <entries>
-            <entry id="e17a2a56-f808-2554-ec6d-f7edb2273bd2" name="Attack Bike w/ Heavy Bolter" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+            <entry id="e17a2a56-f808-2554-ec6d-f7edb2273bd2" name="Attack Bike w/ Heavy Bolter" points="45.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
-              <profiles>
-                <profile id="4f978cc3-1871-e10a-10c0-ec341bd85832" profileTypeId="556e697423232344415441232323" name="Attack Bike" hidden="false" page="0">
-                  <characteristics>
-                    <characteristic characteristicId="556e6974205479706523232344415441232323" name="Unit Type" value="Bike"/>
-                    <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
-                    <characteristic characteristicId="425323232344415441232323" name="BS" value="4"/>
-                    <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
-                    <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
-                    <characteristic characteristicId="5723232344415441232323" name="W" value="2"/>
-                    <characteristic characteristicId="4923232344415441232323" name="I" value="4"/>
-                    <characteristic characteristicId="4123232344415441232323" name="A" value="2"/>
-                    <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
-                    <characteristic characteristicId="5361766523232344415441232323" name="Save" value="3+"/>
-                    <characteristic characteristicId="506723232344415441232323" name="Pg" value="68"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
+              <profiles/>
               <links>
                 <link id="a92a90f9-0703-2cb2-e4da-00a1a3aae51d" targetId="7b48e4ed-bfff-e326-5d10-0d1470fceaad" linkType="profile">
                   <modifiers/>
@@ -342,24 +325,7 @@
               <entryGroups/>
               <modifiers/>
               <rules/>
-              <profiles>
-                <profile id="2c448281-6cd1-5c6e-0b07-a50357e8dbbf" profileTypeId="556e697423232344415441232323" name="Attack Bike" hidden="false" page="0">
-                  <characteristics>
-                    <characteristic characteristicId="556e6974205479706523232344415441232323" name="Unit Type" value="Bike"/>
-                    <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
-                    <characteristic characteristicId="425323232344415441232323" name="BS" value="4"/>
-                    <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
-                    <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
-                    <characteristic characteristicId="5723232344415441232323" name="W" value="2"/>
-                    <characteristic characteristicId="4923232344415441232323" name="I" value="4"/>
-                    <characteristic characteristicId="4123232344415441232323" name="A" value="2"/>
-                    <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
-                    <characteristic characteristicId="5361766523232344415441232323" name="Save" value="3+"/>
-                    <characteristic characteristicId="506723232344415441232323" name="Pg" value="68"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
+              <profiles/>
               <links>
                 <link id="0e2f4925-261f-ded9-dd39-31afba044934" targetId="7fb7ceb9-3505-265c-55e6-77e241ee54bc" linkType="profile">
                   <modifiers/>
@@ -369,18 +335,21 @@
           </entries>
           <entryGroups/>
           <modifiers/>
-          <links/>
+          <links>
+            <link id="a3068d22-da0a-1e90-00a8-ae9d1f32fd46" targetId="1d108d81-a50c-787a-22e8-c4670c89b947" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
         </entryGroup>
       </entryGroups>
       <modifiers/>
-      <rules>
-        <rule id="d4cb8e54-02db-7fd8-1350-b905a73ab55b" name="And They Shall Know no Fear" hidden="false" page="0">
-          <modifiers/>
-        </rule>
-      </rules>
+      <rules/>
       <profiles/>
       <links>
         <link id="cb8174c1-cbbe-c094-5740-4f3aa95e52a9" targetId="15f12b40-90ae-a6cf-a89c-637f09456817" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1250d449-e9d7-c730-937d-fa1919e7170a" targetId="b0a75006-da49-ae36-212f-9059c11f2821" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -15102,6 +15071,22 @@
         <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Tank"/>
         <characteristic characteristicId="506723232344415441232323" name="Pg"/>
         <characteristic characteristicId="485023232344415441232323" name="HP" value="3"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="1d108d81-a50c-787a-22e8-c4670c89b947" profileTypeId="556e697423232344415441232323" name="Attack Bike" hidden="false" page="84">
+      <characteristics>
+        <characteristic characteristicId="556e6974205479706523232344415441232323" name="Unit Type" value="Bike"/>
+        <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
+        <characteristic characteristicId="425323232344415441232323" name="BS" value="4"/>
+        <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+        <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
+        <characteristic characteristicId="5723232344415441232323" name="W" value="2"/>
+        <characteristic characteristicId="4923232344415441232323" name="I" value="4"/>
+        <characteristic characteristicId="4123232344415441232323" name="A" value="2"/>
+        <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+        <characteristic characteristicId="5361766523232344415441232323" name="Save" value="3+"/>
+        <characteristic characteristicId="506723232344415441232323" name="Pg" value="84"/>
       </characteristics>
       <modifiers/>
     </profile>
