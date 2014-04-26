@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="a1d51a68-4b57-eb7d-f7e2-23bf0c22e374" revision="61" gameSystemId="3d1a4963-0629-4025-a90b-76ab3d63c5c5" gameSystemRevision="1" battleScribeVersion="1.14b" name="Space Marines: Codex (2013) v61" authorName="Rob Marti" authorContact="rob@marticlan.info" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
-    <entry id="8c342b5d-4b0e-486d-b82a-94b1de76acc7" name="Assault Squad" points="0.0" categoryId="466173742041747461636b23232344415441232323" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="8c342b5d-4b0e-486d-b82a-94b1de76acc7" name="Assault Squad" points="0.0" categoryId="466173742041747461636b23232344415441232323" type="unit" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" book="Codex: Space Marines" page="83">
       <entries>
-        <entry id="971b01e0-2a92-4f18-9075-1eb739f40659" name="Space Marine" points="17.0" categoryId="(No Category)" type="upgrade" minSelections="4" maxSelections="9" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="971b01e0-2a92-4f18-9075-1eb739f40659" name="Space Marine" points="17.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="9" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -23,12 +23,19 @@
                 <characteristic characteristicId="5361766523232344415441232323" name="Save" value="3+"/>
                 <characteristic characteristicId="506723232344415441232323" name="Pg" value=""/>
               </characteristics>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="556e6974205479706523232344415441232323" value="Infantry" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="8c342b5d-4b0e-486d-b82a-94b1de76acc7" childId="350c29b9-c884-8d02-a61f-584d167b054c" field="selections" type="less than" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
             </profile>
           </profiles>
           <links/>
         </entry>
-        <entry id="6f7390c8-6d6a-487d-98ec-fd973f69736d" name="Space Marine Sergeant" points="17.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="6f7390c8-6d6a-487d-98ec-fd973f69736d" name="Space Marine Sergeant" points="17.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries>
             <entry id="9afa2070-ab75-4ac2-b1d6-00a8fdc94397" name="Combat Shield" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries/>
@@ -52,9 +59,9 @@
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="1f48ac86-9ab6-7013-346a-cff18af6871e" profileTypeId="556e697423232344415441232323" name="Assault Space Marine Vet Sgt." hidden="false" page="83">
+                <profile id="1f48ac86-9ab6-7013-346a-cff18af6871e" profileTypeId="556e697423232344415441232323" name="Assault Veteran Sergeant" hidden="false" page="83">
                   <characteristics>
-                    <characteristic characteristicId="556e6974205479706523232344415441232323" name="Unit Type" value="Jump Infantry"/>
+                    <characteristic characteristicId="556e6974205479706523232344415441232323" name="Unit Type" value="Jump Infantry (Character)"/>
                     <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
                     <characteristic characteristicId="425323232344415441232323" name="BS" value="4"/>
                     <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
@@ -66,7 +73,14 @@
                     <characteristic characteristicId="5361766523232344415441232323" name="Save" value="3+"/>
                     <characteristic characteristicId="506723232344415441232323" name="Pg" value="83"/>
                   </characteristics>
-                  <modifiers/>
+                  <modifiers>
+                    <modifier type="set" field="556e6974205479706523232344415441232323" value="Infantry (Character)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="8c342b5d-4b0e-486d-b82a-94b1de76acc7" childId="350c29b9-c884-8d02-a61f-584d167b054c" field="selections" type="less than" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
                 </profile>
               </profiles>
               <links/>
@@ -87,7 +101,7 @@
                 <link id="594b50ae-c721-c200-2707-0b2e67c0a398" targetId="8b5a3806-384d-dbf8-84b5-95e55a15fd5c" linkType="entry">
                   <modifiers/>
                 </link>
-                <link id="e7f45a18-5fd6-503d-dd00-3d5603586947" targetId="969c03bc-8580-7ac2-e9ff-db7fb8cd24c0" linkType="entry group">
+                <link id="c60a963a-b3d9-fa0b-6855-6c24f96a6f77" targetId="969c03bc-8580-7ac2-e9ff-db7fb8cd24c0" linkType="entry group">
                   <modifiers/>
                 </link>
               </links>
@@ -109,9 +123,9 @@
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="c180d183-b95a-ebc0-f3d2-938b6a060e9d" profileTypeId="556e697423232344415441232323" name="Assault Space Marine Sgt." hidden="false" page="83">
+            <profile id="c180d183-b95a-ebc0-f3d2-938b6a060e9d" profileTypeId="556e697423232344415441232323" name="Assault Space Marine Sargeant" hidden="false" page="83">
               <characteristics>
-                <characteristic characteristicId="556e6974205479706523232344415441232323" name="Unit Type" value="Jump Infantry"/>
+                <characteristic characteristicId="556e6974205479706523232344415441232323" name="Unit Type" value="Jump Infantry (Character)"/>
                 <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
                 <characteristic characteristicId="425323232344415441232323" name="BS" value="4"/>
                 <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
@@ -130,6 +144,12 @@
                   </conditions>
                   <conditionGroups/>
                 </modifier>
+                <modifier type="set" field="556e6974205479706523232344415441232323" value="Infantry (Character)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="8c342b5d-4b0e-486d-b82a-94b1de76acc7" childId="350c29b9-c884-8d02-a61f-584d167b054c" field="selections" type="less than" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
               </modifiers>
             </profile>
           </profiles>
@@ -137,9 +157,9 @@
         </entry>
       </entries>
       <entryGroups>
-        <entryGroup id="f5ccd829-9edb-46b7-9ea4-7424d62a8137" name="Jumppack/Transport" defaultEntryId="350c29b9-c884-8d02-a61f-584d167b054c" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+        <entryGroup id="f5ccd829-9edb-46b7-9ea4-7424d62a8137" name="Jumppacks/Transport" defaultEntryId="350c29b9-c884-8d02-a61f-584d167b054c" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
           <entries>
-            <entry id="350c29b9-c884-8d02-a61f-584d167b054c" name="Keep Jumppacks" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+            <entry id="350c29b9-c884-8d02-a61f-584d167b054c" name="Keep jump packs" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -1213,7 +1233,6 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="roster" childId="dbf041af-8b1d-f1f8-9462-6b870a8e6a31" field="selections" type="greater than" value="0.0"/>
-                <condition parentId="roster" childId="9c1d12c5-8cac-6fc3-d6ed-d1111c4111a2" field="selections" type="greater than" value="0.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -1355,7 +1374,6 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="roster" childId="9a4c4bda-12de-b5e6-e2d4-4747ceeb0703" field="selections" type="greater than" value="0.0"/>
-                <condition parentId="roster" childId="de5eaadc-5b6d-d693-2b4f-71df2a8ada25" field="selections" type="greater than" value="0.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -2026,7 +2044,6 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="roster" childId="dbf041af-8b1d-f1f8-9462-6b870a8e6a31" field="selections" type="greater than" value="0.0"/>
-                <condition parentId="roster" childId="9c1d12c5-8cac-6fc3-d6ed-d1111c4111a2" field="selections" type="greater than" value="0.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -2225,7 +2242,6 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="roster" childId="c7ed046c-2c98-23d5-dfd7-0005fc87a225" field="selections" type="greater than" value="0.0"/>
-                <condition parentId="roster" childId="9d9de149-39b2-b45d-afda-dd9e79075de2" field="selections" type="greater than" value="0.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -2834,7 +2850,6 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="roster" childId="dbf041af-8b1d-f1f8-9462-6b870a8e6a31" field="selections" type="greater than" value="0.0"/>
-                <condition parentId="roster" childId="9c1d12c5-8cac-6fc3-d6ed-d1111c4111a2" field="selections" type="greater than" value="0.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -3704,7 +3719,6 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="roster" childId="c7ed046c-2c98-23d5-dfd7-0005fc87a225" field="selections" type="greater than" value="0.0"/>
-                <condition parentId="roster" childId="9d9de149-39b2-b45d-afda-dd9e79075de2" field="selections" type="greater than" value="0.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -5044,7 +5058,6 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="roster" childId="c7ed046c-2c98-23d5-dfd7-0005fc87a225" field="selections" type="greater than" value="0.0"/>
-                <condition parentId="roster" childId="9d9de149-39b2-b45d-afda-dd9e79075de2" field="selections" type="greater than" value="0.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -5752,7 +5765,6 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="roster" childId="96258a28-5e1c-54b1-e209-5f02eefeecb9" field="selections" type="greater than" value="0.0"/>
-                <condition parentId="roster" childId="d3af5def-ed20-3617-dec1-e0e8bb131c3c" field="selections" type="greater than" value="0.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -6620,7 +6632,6 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="roster" childId="c7ed046c-2c98-23d5-dfd7-0005fc87a225" field="selections" type="greater than" value="0.0"/>
-                <condition parentId="roster" childId="9d9de149-39b2-b45d-afda-dd9e79075de2" field="selections" type="greater than" value="0.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -6946,7 +6957,6 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="roster" childId="dbf041af-8b1d-f1f8-9462-6b870a8e6a31" field="selections" type="greater than" value="0.0"/>
-                <condition parentId="roster" childId="9c1d12c5-8cac-6fc3-d6ed-d1111c4111a2" field="selections" type="greater than" value="0.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -7294,7 +7304,6 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="roster" childId="9a4c4bda-12de-b5e6-e2d4-4747ceeb0703" field="selections" type="greater than" value="0.0"/>
-                <condition parentId="roster" childId="de5eaadc-5b6d-d693-2b4f-71df2a8ada25" field="selections" type="greater than" value="0.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -8028,7 +8037,6 @@
                         <conditionGroup type="or">
                           <conditions>
                             <condition parentId="roster" childId="dbf041af-8b1d-f1f8-9462-6b870a8e6a31" field="selections" type="greater than" value="0.0"/>
-                            <condition parentId="roster" childId="9c1d12c5-8cac-6fc3-d6ed-d1111c4111a2" field="selections" type="greater than" value="0.0"/>
                           </conditions>
                           <conditionGroups/>
                         </conditionGroup>
@@ -9036,7 +9044,6 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="roster" childId="a50bd920-9e4d-bd22-7cd9-bbfe46a2be8a" field="selections" type="greater than" value="0.0"/>
-                <condition parentId="roster" childId="31a13025-5ff7-90b6-161a-3dc4e9a2a19e" field="selections" type="greater than" value="0.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -11366,7 +11373,6 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="roster" childId="c7ed046c-2c98-23d5-dfd7-0005fc87a225" field="selections" type="greater than" value="0.0"/>
-                <condition parentId="roster" childId="9d9de149-39b2-b45d-afda-dd9e79075de2" field="selections" type="greater than" value="0.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -12024,7 +12030,6 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="roster" childId="b89219bd-f1ec-5203-0586-15e67a7acaab" field="selections" type="greater than" value="0.0"/>
-                <condition parentId="roster" childId="49347a94-94d7-5755-5883-c8e0bced3c72" field="selections" type="greater than" value="0.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -12220,7 +12225,6 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="roster" childId="dbf041af-8b1d-f1f8-9462-6b870a8e6a31" field="selections" type="greater than" value="0.0"/>
-                <condition parentId="roster" childId="9c1d12c5-8cac-6fc3-d6ed-d1111c4111a2" field="selections" type="greater than" value="0.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -14247,6 +14251,9 @@
     <rule id="f8f37bdd-1b57-c95e-40e1-4e24614b4359" name="Graviton" hidden="false" book="Codex: Space Marines 2013" page="121">
       <modifiers/>
     </rule>
+    <rule id="6e071b9e-25bf-6dba-4ea6-f9bdf276b069" name="Independent Character" hidden="false" page="0">
+      <modifiers/>
+    </rule>
     <rule id="6f1b9ae2-5c32-d27c-46a8-48da580d152d" name="Move Through Cover" hidden="false" page="0">
       <modifiers/>
     </rule>
@@ -14260,9 +14267,6 @@
       <modifiers/>
     </rule>
     <rule id="91f82b5f-839f-9019-d979-095f04d79166" name="Very Bulky" hidden="false" page="0">
-      <modifiers/>
-    </rule>
-    <rule id="6e071b9e-25bf-6dba-4ea6-f9bdf276b069" name="Independent Character" hidden="false" page="0">
       <modifiers/>
     </rule>
   </sharedRules>
