@@ -43,15 +43,11 @@
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
-            </entry>
-            <entry id="06385f5e-f97e-4358-837f-39ac186210ae" name="Melta Bombs" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
+              <links>
+                <link id="f8c580b3-31f8-2b82-c85b-961e1ca3d28f" targetId="a3362f8f-5224-0633-6a22-4d07c4b3b554" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
             <entry id="947d5278-5e2f-08f0-37f8-f32ba2f594e3" name="Veteran Assault Sergeant" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries/>
@@ -153,7 +149,11 @@
               </modifiers>
             </profile>
           </profiles>
-          <links/>
+          <links>
+            <link id="ce902359-5390-c985-dd28-34cecf8ac119" targetId="f4d11e65-60e7-f09d-a48d-93ef94cbf78e" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
       </entries>
       <entryGroups>
@@ -368,24 +368,16 @@
             </link>
           </links>
         </entry>
-        <entry id="d195f039-c796-4480-97a9-e8e0632149d7" name="Biker Sergeant" points="21.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="97dd2527-4061-1993-1853-3c4de91454ba" name="Biker Sergeant" points="21.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries>
-            <entry id="5c0984ab-dc12-4c25-a0e5-34f2d51aff22" name="Melta Bombs" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="8eb81db2-6348-0c08-c7f3-a42bf55977a5" name="Biker Veteran Sgt" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+            <entry id="389de813-88e0-2ded-8711-0b2a9d3dfabb" name="Biker Veteran Sgt" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
               <profiles/>
               <links>
-                <link id="cadef33b-2e2a-8218-9e93-c133e6468aa0" targetId="9e61e586-2e48-c13e-ddca-0d130c5ff46d" linkType="profile">
+                <link id="94446a07-4e4d-c513-a691-21fc1ac103fa" targetId="9e61e586-2e48-c13e-ddca-0d130c5ff46d" linkType="profile">
                   <modifiers/>
                 </link>
               </links>
@@ -396,10 +388,13 @@
           <rules/>
           <profiles/>
           <links>
-            <link id="df426a62-0558-0e5e-bb90-957e1808ec23" targetId="7b0c4af2-edb3-ef75-2aec-521d215297f9" linkType="entry group">
+            <link id="a7778557-639e-f702-e9ab-37a268086077" targetId="7b0c4af2-edb3-ef75-2aec-521d215297f9" linkType="entry group">
               <modifiers/>
             </link>
-            <link id="dccffafc-60f2-7ac0-fa85-07202b1f10d2" targetId="7f05fd2b-e2ce-d3f2-590d-4d8563794ca9" linkType="profile">
+            <link id="b6e885e9-57d3-cf13-8ce3-e45f72a93c25" targetId="7f05fd2b-e2ce-d3f2-590d-4d8563794ca9" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="7331b4e4-b5f3-a0c7-9489-31cd8dad5c02" targetId="f4d11e65-60e7-f09d-a48d-93ef94cbf78e" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -427,74 +422,35 @@
         </link>
       </links>
     </entry>
-    <entry id="a9af0424-f0f3-4b7d-b95a-db4bf42f5ad7" name="Bike Squad (Troops)" points="0.0" categoryId="54726f6f707323232344415441232323" type="unit" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="0" collective="false" page="0">
+    <entry id="a9af0424-f0f3-4b7d-b95a-db4bf42f5ad7" name="Bike Squad (Troops)" points="0.0" categoryId="54726f6f707323232344415441232323" type="unit" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="0" collective="false" book="Codex: Space Marines (2013)" page="84">
       <entries>
         <entry id="d1b35971-18d1-0407-43a2-eb8cfd57dba4" name="Biker Sergeant" points="21.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries>
-            <entry id="a3306e30-cba5-e12b-1a79-25a59bfbb483" name="Melta Bombs" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
             <entry id="758d8c5f-2407-d7a0-f853-e475158cd535" name="Biker Veteran Sgt" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
-              <profiles>
-                <profile id="5ab15643-dbbc-12bb-9966-c45aaf539e55" profileTypeId="556e697423232344415441232323" name="Biker Veteran Sgt" hidden="false" page="0">
-                  <characteristics>
-                    <characteristic characteristicId="556e6974205479706523232344415441232323" name="Unit Type" value="4"/>
-                    <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
-                    <characteristic characteristicId="425323232344415441232323" name="BS" value="4"/>
-                    <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
-                    <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
-                    <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
-                    <characteristic characteristicId="4923232344415441232323" name="I" value="4"/>
-                    <characteristic characteristicId="4123232344415441232323" name="A" value="2"/>
-                    <characteristic characteristicId="4c4423232344415441232323" name="LD" value="9"/>
-                    <characteristic characteristicId="5361766523232344415441232323" name="Save" value="3+"/>
-                    <characteristic characteristicId="506723232344415441232323" name="Pg" value="84"/>
-                  </characteristics>
+              <profiles/>
+              <links>
+                <link id="01b9f93d-0b8e-5b5d-1eb7-68ce80e5aaf4" targetId="9e61e586-2e48-c13e-ddca-0d130c5ff46d" linkType="profile">
                   <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
+                </link>
+              </links>
             </entry>
           </entries>
           <entryGroups/>
           <modifiers/>
           <rules/>
-          <profiles>
-            <profile id="ebb21e60-c1b0-3315-48ce-d48ab1db2801" profileTypeId="556e697423232344415441232323" name="Biker Sergeant" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="556e6974205479706523232344415441232323" name="Unit Type" value="Bike"/>
-                <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
-                <characteristic characteristicId="425323232344415441232323" name="BS" value="4"/>
-                <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
-                <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
-                <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
-                <characteristic characteristicId="4923232344415441232323" name="I" value="4"/>
-                <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
-                <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
-                <characteristic characteristicId="5361766523232344415441232323" name="Save" value="3+"/>
-                <characteristic characteristicId="506723232344415441232323" name="Pg" value="68"/>
-              </characteristics>
-              <modifiers>
-                <modifier type="hide" field="556e6974205479706523232344415441232323" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="d1b35971-18d1-0407-43a2-eb8cfd57dba4" childId="758d8c5f-2407-d7a0-f853-e475158cd535" field="selections" type="greater than" value="0.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </profile>
-          </profiles>
+          <profiles/>
           <links>
             <link id="db38ade1-7e89-4091-eda2-916af2752499" targetId="7b0c4af2-edb3-ef75-2aec-521d215297f9" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="a28162e6-7560-ad0a-3715-a8c7d8005fc3" targetId="7f05fd2b-e2ce-d3f2-590d-4d8563794ca9" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="045960a2-a917-db48-5f9d-580b4f8d5bc2" targetId="f4d11e65-60e7-f09d-a48d-93ef94cbf78e" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -503,30 +459,22 @@
       <entryGroups>
         <entryGroup id="a18c85db-48cb-b669-33af-782e0aeedcf3" name="Min of 4 required" minSelections="4" maxSelections="8" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
           <entries>
-            <entry id="b8db75bb-181c-c541-e34c-eba6c037bd13" name="Space Marine Biker" points="21.0" categoryId="(No Category)" type="upgrade" minSelections="3" maxSelections="7" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+            <entry id="b8db75bb-181c-c541-e34c-eba6c037bd13" name="Space Marine Biker" points="21.0" categoryId="(No Category)" type="upgrade" minSelections="4" maxSelections="7" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries/>
               <entryGroups/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="decrement" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <rules/>
-              <profiles>
-                <profile id="60ba1bf0-e372-7d91-3077-a9334f55b735" profileTypeId="556e697423232344415441232323" name="Space Marine Biker" hidden="false" page="0">
-                  <characteristics>
-                    <characteristic characteristicId="556e6974205479706523232344415441232323" name="Unit Type" value="Bike"/>
-                    <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
-                    <characteristic characteristicId="425323232344415441232323" name="BS" value="4"/>
-                    <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
-                    <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
-                    <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
-                    <characteristic characteristicId="4923232344415441232323" name="I" value="4"/>
-                    <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
-                    <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
-                    <characteristic characteristicId="5361766523232344415441232323" name="Save" value="3+"/>
-                    <characteristic characteristicId="506723232344415441232323" name="Pg" value="68"/>
-                  </characteristics>
+              <profiles/>
+              <links>
+                <link id="b9d4dbaa-7185-7ebb-2c70-bdb61fd46f41" targetId="6fff7e99-dd4a-4641-8581-fe8b1132a946" linkType="profile">
                   <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
+                </link>
+              </links>
             </entry>
           </entries>
           <entryGroups/>
