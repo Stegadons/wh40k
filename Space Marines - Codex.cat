@@ -356,7 +356,7 @@
     </entry>
     <entry id="0b0e0a63-c03d-456f-84c2-61ab17ff11cf" name="Bike Squad" points="0.0" categoryId="466173742041747461636b23232344415441232323" type="unit" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" book="Codex: Space Marines (2013)" page="84">
       <entries>
-        <entry id="6410d329-3faa-4d2b-a7b5-ebfd3c72b98d" name="Space Marine Biker" points="21.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="7" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="6410d329-3faa-4d2b-a7b5-ebfd3c72b98d" name="Space Marine Biker" points="21.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="7" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -459,7 +459,7 @@
       <entryGroups>
         <entryGroup id="a18c85db-48cb-b669-33af-782e0aeedcf3" name="Min of 4 required" minSelections="4" maxSelections="8" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
           <entries>
-            <entry id="b8db75bb-181c-c541-e34c-eba6c037bd13" name="Space Marine Biker" points="21.0" categoryId="(No Category)" type="upgrade" minSelections="4" maxSelections="7" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+            <entry id="b8db75bb-181c-c541-e34c-eba6c037bd13" name="Space Marine Biker" points="21.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="7" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers>
@@ -515,387 +515,61 @@
         </link>
       </links>
     </entry>
-    <entry id="9a810833-70ad-f6bc-4a5a-0dce4ad10855" name="Captain" points="90.0" categoryId="485123232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="9a810833-70ad-f6bc-4a5a-0dce4ad10855" name="Captain" points="90.0" categoryId="485123232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" book="Codex: Space Marines (2013)" page="0">
       <entries>
-        <entry id="f83e677f-11fb-9521-c518-787b0cd47902" name="Artificer Armor" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="a507e403-5fe0-449b-0589-a6982de2847b" profileTypeId="57617267656172204974656d23232344415441232323" name="Artificer Armour" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="4465736372697074696f6e23232344415441232323" name="Description" value="Confers a 2+ Sv"/>
-                <characteristic characteristicId="506723232344415441232323" name="Pg"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
         <entry id="12a4ec45-0b28-6f97-1ef9-b6b640c7b765" name="Storm Shield" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
-          <profiles>
-            <profile id="1582ffb4-a4b2-f84c-5474-eb31d8b3a0ae" profileTypeId="57617267656172204974656d23232344415441232323" name="Storm Shield" hidden="false" book="Codex: Dark Angels 6th" page="64">
-              <characteristics>
-                <characteristic characteristicId="4465736372697074696f6e23232344415441232323" name="Description" value="3++ but can never count as having 2 close combat weapons"/>
-                <characteristic characteristicId="506723232344415441232323" name="Pg" value="64"/>
-              </characteristics>
+          <profiles/>
+          <links>
+            <link id="6d67de1d-8781-f06c-62c1-78b5bbdf43ea" targetId="658fd15b-771f-375a-d3fb-87367b9c46b0" linkType="profile">
               <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
+            </link>
+          </links>
         </entry>
       </entries>
       <entryGroups>
         <entryGroup id="9dc51281-0a2c-70b6-61d5-d4211b16eaca" name="Exchange Chainsword for" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
-          <entries>
-            <entry id="e416de57-7f4d-87a3-3268-f0ed7c4f216d" name="Relic Blade" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="e1d7eac6-e88f-11db-eab1-546c5ccc7446" profileTypeId="576561706f6e23232344415441232323" name="Relic Blade" hidden="false" page="0">
-                  <characteristics>
-                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="-"/>
-                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="+2"/>
-                    <characteristic characteristicId="415023232344415441232323" name="AP" value="3"/>
-                    <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Melee, Two-handed"/>
-                    <characteristic characteristicId="506723232344415441232323" name="Pg"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups>
-            <entryGroup id="965fe1b2-e353-6afe-55f1-52e9283c5ce4" name="Ranged Weapon" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
-              <entries>
-                <entry id="ee8d1517-3da7-4c55-dc64-5e4d51209e8a" name="Storm Bolter" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" book="" page="0">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-                <entry id="46bd6bd6-672f-4f33-9b74-10099b5f1653" name="Combi-weapon" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-                <entry id="f6400063-2b6f-6212-1e7a-8ec537f556e7" name="Grav Pistol" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-                <entry id="aede2a47-8ea5-99cc-fdf6-6da0edd18a76" name="Plasma Pistol" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles>
-                    <profile id="a45a5f1f-43e2-7fdd-c5e0-3130bbf499f5" profileTypeId="576561706f6e23232344415441232323" name="Plasma Pistol" hidden="false" book="BRB" page="57">
-                      <characteristics>
-                        <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="12&quot;"/>
-                        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="7"/>
-                        <characteristic characteristicId="415023232344415441232323" name="AP" value="2"/>
-                        <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Pistol"/>
-                        <characteristic characteristicId="506723232344415441232323" name="Pg" value="57"/>
-                      </characteristics>
-                      <modifiers/>
-                    </profile>
-                  </profiles>
-                  <links/>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
-            </entryGroup>
-            <entryGroup id="4df48e2c-f4e1-a621-de42-9446f3503a2f" name="Melee Weapon" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
-              <entries>
-                <entry id="2da9e1de-7a3b-11c6-7bb8-58f348e0f22f" name="Power Weapon" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-                <entry id="a450d76b-7816-918f-791e-0418b54dd10c" name="Lightning Claw" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-                <entry id="b92ca22b-5601-19ba-f7f4-43626b8c6fc7" name="Power Fist" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-                <entry id="70649da8-4f98-83e5-690c-21d1ab935fae" name="Thunder Hammer" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
-            </entryGroup>
-          </entryGroups>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="7191f8db-be61-3563-db8c-10aa8e369b8d" name="Exchange Bolt Pistol for" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
-          <entries>
-            <entry id="3689c554-c7c0-d67f-6e8d-30c0ad79d6c8" name="Boltgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" book="BRB" page="56">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="ef806fcd-cd14-c4ee-1835-f2788edefb81" profileTypeId="576561706f6e23232344415441232323" name="Boltgun" hidden="false" book="BRB" page="56">
-                  <characteristics>
-                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="24&quot;"/>
-                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="4"/>
-                    <characteristic characteristicId="415023232344415441232323" name="AP" value="5"/>
-                    <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Rapid Fire"/>
-                    <characteristic characteristicId="506723232344415441232323" name="Pg" value="56"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups>
-            <entryGroup id="9ccb7287-c73e-19a4-f5b3-1fc37b22cd88" name="Ranged Weapon" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
-              <entries>
-                <entry id="213291e7-2369-f0df-ece1-189d11626f21" name="Storm Bolter" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" book="" page="0">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-                <entry id="8bbd9349-d63e-1073-bfbc-084b314791b7" name="Combi-weapon" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-                <entry id="1af3891d-2e3b-da97-0200-6ae775c0db74" name="Grav Pistol" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-                <entry id="d046227a-ae4d-1cbc-d786-67144de91567" name="Plasma Pistol" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles>
-                    <profile id="c769f6c7-e422-acf8-c012-3f8fbdbf02d0" profileTypeId="576561706f6e23232344415441232323" name="Plasma Pistol" hidden="false" book="BRB" page="57">
-                      <characteristics>
-                        <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="12&quot;"/>
-                        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="7"/>
-                        <characteristic characteristicId="415023232344415441232323" name="AP" value="2"/>
-                        <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Pistol"/>
-                        <characteristic characteristicId="506723232344415441232323" name="Pg" value="57"/>
-                      </characteristics>
-                      <modifiers/>
-                    </profile>
-                  </profiles>
-                  <links/>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
-            </entryGroup>
-            <entryGroup id="05dcf518-53bc-bea0-e28e-464e750a1ee7" name="Melee Weapon" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
-              <entries>
-                <entry id="59b25c33-1c6e-5d1e-e047-18fe4173bba4" name="Power Weapon" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-                <entry id="6ab38f5e-2f33-5be6-d784-efcaa4f4f7be" name="Lightning Claw" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-                <entry id="a5f30465-d3cb-b2df-52a3-7a8aa1c67889" name="Power Fist" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-                <entry id="3ab0dfb9-1c73-d27d-35fb-814378fb892e" name="Thunder Hammer" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
-            </entryGroup>
-          </entryGroups>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="c19e6ed5-9259-d1b0-b1c8-5004f4e618c2" name="Special Issue Wargear" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
-          <entries>
-            <entry id="a22a69d2-0581-5cf9-1230-091b903adf3b" name="Auspex" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="4c560fb4-904a-653a-1596-dee1c73e71b5" profileTypeId="57617267656172204974656d23232344415441232323" name="Auspex" hidden="false" book="" page="63">
-                  <characteristics>
-                    <characteristic characteristicId="4465736372697074696f6e23232344415441232323" name="Description" value="Forego shooting to make an enemy unit within 12&quot; reduce it&apos;s cover save by 1, untill the end of the phase"/>
-                    <characteristic characteristicId="506723232344415441232323" name="Pg" value=""/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-            <entry id="b0a962a8-dcc7-9cc7-8b31-42c5a00b31a1" name="Melta Bombs" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="a0fcd6c8-725d-9ec1-0ae1-d4466edf75d8" profileTypeId="576561706f6e23232344415441232323" name="Melta Bombs" hidden="false" book="BRB" page="62">
-                  <characteristics>
-                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="-"/>
-                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="8"/>
-                    <characteristic characteristicId="415023232344415441232323" name="AP" value="1"/>
-                    <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Armourbane, Unwieldly, Against Vehicles and MCs only"/>
-                    <characteristic characteristicId="506723232344415441232323" name="Pg" value="62"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-            <entry id="0774baed-4dda-c6df-e6c6-20f51abd98ae" name="Digital Weapons" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="d977f4b0-b67a-19c9-3ca8-03f834ad5223" profileTypeId="57617267656172204974656d23232344415441232323" name="Digital Weapons" hidden="false" book="" page="63">
-                  <characteristics>
-                    <characteristic characteristicId="4465736372697074696f6e23232344415441232323" name="Description" value="Re-roll a single failed to wound roll in the assault phase"/>
-                    <characteristic characteristicId="506723232344415441232323" name="Pg" value=""/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-            <entry id="4140ad6f-638f-6e0f-f6f8-2d3c4e0d9855" name="Teleport Homer" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="9114766d-f0cd-00c2-f758-2dcf85d2bedd" profileTypeId="57617267656172204974656d23232344415441232323" name="Teleport Homer" hidden="false" book="" page="64">
-                  <characteristics>
-                    <characteristic characteristicId="4465736372697074696f6e23232344415441232323" name="Description" value="Friendly Terminators do not scatter when placed within 6&quot;, model must have started the turn on the board"/>
-                    <characteristic characteristicId="506723232344415441232323" name="Pg" value=""/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-            <entry id="688ceb09-35a6-6a99-ebb7-28875c5de49d" name="Bike" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="27e0ec45-77ad-5533-4b4e-7611943a6b84" profileTypeId="57617267656172204974656d23232344415441232323" name="Space Marine Bike" hidden="false" book="" page="64">
-                  <characteristics>
-                    <characteristic characteristicId="4465736372697074696f6e23232344415441232323" name="Description" value="Change unit type to Bike, and gives +1 to Toughness. has built-in Twinlinked Bolter."/>
-                    <characteristic characteristicId="506723232344415441232323" name="Pg" value=""/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-            <entry id="4004750d-288c-a8e5-eef7-328472c0795b" name="Jump Pack" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="f5956b7b-5898-53c9-f965-0dd56aa52c72" profileTypeId="57617267656172204974656d23232344415441232323" name="Jump Pack" hidden="false" book="" page="63">
-                  <characteristics>
-                    <characteristic characteristicId="4465736372697074696f6e23232344415441232323" name="Description" value="Follows the rules for Jump Infantry in the BRB page 47"/>
-                    <characteristic characteristicId="506723232344415441232323" name="Pg" value=""/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-          </entries>
+          <entries/>
           <entryGroups/>
           <modifiers/>
-          <links/>
+          <links>
+            <link id="53d43f1e-efaa-1a71-0bf6-00ae18cf7e9c" targetId="969c03bc-8580-7ac2-e9ff-db7fb8cd24c0" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="f0abe321-8506-12d2-36ce-01f01c913306" targetId="392e931b-3cfe-6349-b095-ee7801ee8f84" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="29bd1773-73cd-fae4-09fc-d43b510a42eb" targetId="0d4e8765-57f0-cfe4-fa1d-3477de3fecb2" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="7191f8db-be61-3563-db8c-10aa8e369b8d" name="Exchange Bolt Pistol for" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="a76b7f5d-d0dd-b55b-b7af-7a1e6fc47ad3" targetId="48df6c8c-d212-8e4f-b119-1aa01211dba4" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="2c7dc3c5-6a9e-d767-9dcc-1d0b562db890" targetId="969c03bc-8580-7ac2-e9ff-db7fb8cd24c0" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="c72dc206-7bbd-b3f4-7f21-4e7f4b8d056b" targetId="392e931b-3cfe-6349-b095-ee7801ee8f84" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
         </entryGroup>
       </entryGroups>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="d90d31d2-d293-a9b3-b4d0-6f1b5f0e09bb" profileTypeId="556e697423232344415441232323" name="Captain" hidden="false" book="Codex: Space Marines" page="79">
+        <profile id="d90d31d2-d293-a9b3-b4d0-6f1b5f0e09bb" profileTypeId="556e697423232344415441232323" name="Captain" hidden="false" book="Codex: Space Marines (2013)" page="79">
           <characteristics>
-            <characteristic characteristicId="556e6974205479706523232344415441232323" name="Unit Type" value="Infantry"/>
+            <characteristic characteristicId="556e6974205479706523232344415441232323" name="Unit Type" value="Infantry (Character)"/>
             <characteristic characteristicId="575323232344415441232323" name="WS" value="6"/>
             <characteristic characteristicId="425323232344415441232323" name="BS" value="5"/>
             <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
@@ -908,7 +582,19 @@
             <characteristic characteristicId="506723232344415441232323" name="Pg" value="79"/>
           </characteristics>
           <modifiers>
-            <modifier type="set" field="5361766523232344415441232323" value="2+" repeat="true" numRepeats="1" incrementParentId="9a810833-70ad-f6bc-4a5a-0dce4ad10855" incrementChildId="f83e677f-11fb-9521-c518-787b0cd47902" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="5361766523232344415441232323" value="2+" repeat="true" numRepeats="1" incrementParentId="9a810833-70ad-f6bc-4a5a-0dce4ad10855" incrementChildId="656a759c-74cd-222a-add8-20465944c2ac" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="556e6974205479706523232344415441232323" value="Jump Infantry (Character)" repeat="true" numRepeats="1" incrementParentId="9a810833-70ad-f6bc-4a5a-0dce4ad10855" incrementChildId="ce4ba95a-b62a-5e38-ea3a-70cef5d3c767" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="556e6974205479706523232344415441232323" value="Bike (Character)" repeat="true" numRepeats="1" incrementParentId="9a810833-70ad-f6bc-4a5a-0dce4ad10855" incrementChildId="b8d0207d-30db-8ac2-c3fe-aeac993aa0d5" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="5423232344415441232323" value="1" repeat="true" numRepeats="1" incrementParentId="9a810833-70ad-f6bc-4a5a-0dce4ad10855" incrementChildId="b8d0207d-30db-8ac2-c3fe-aeac993aa0d5" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
@@ -948,13 +634,6 @@
             </modifier>
           </modifiers>
         </profile>
-        <profile id="aa8080d0-9907-9ae4-ac63-2a0c8678028f" profileTypeId="57617267656172204974656d23232344415441232323" name="Iron Halo" hidden="false" book="" page="63">
-          <characteristics>
-            <characteristic characteristicId="4465736372697074696f6e23232344415441232323" name="Description" value="4++"/>
-            <characteristic characteristicId="506723232344415441232323" name="Pg" value="63"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
       </profiles>
       <links>
         <link id="8117d77c-1657-c2c4-496e-86fe4c94bb79" targetId="edbeffb9-925c-2f9e-b54e-64f5d59e634a" linkType="entry group">
@@ -967,6 +646,15 @@
           <modifiers/>
         </link>
         <link id="5087aef9-9591-d3e4-f380-bb727cc0c778" targetId="b0a75006-da49-ae36-212f-9059c11f2821" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="656a759c-74cd-222a-add8-20465944c2ac" targetId="4634a337-3354-9097-7aba-4008bfa0e8ab" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="faf049c2-8104-617a-5fab-a6bab3e9f60b" targetId="81b16515-0b7f-791d-7bbd-da8deab0fc2f" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="bae5554a-fdbd-aeb6-0abf-d459dbc6e6ba" targetId="601e7c98-b960-35b2-0224-803efd8413eb" linkType="entry group">
           <modifiers/>
         </link>
       </links>
@@ -12819,6 +12507,66 @@
         </link>
       </links>
     </entry>
+    <entry id="4634a337-3354-9097-7aba-4008bfa0e8ab" name="Artificer Armor" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="d6cae324-c733-6cd4-1498-43f1a901afb5" targetId="deaa33cb-d0a7-5bd2-c810-d77f2f26d12c" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="e21517fe-e39c-4f07-0b08-e3394eb2bd0f" name="Auspex" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="7192adad-08b3-41e4-3594-3194233dad64" targetId="37591ce3-75cb-04e3-fbf3-b24c277514e0" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="c06a6c8a-8846-e239-94b7-3b3b998c9607" name="Teleport Homer" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="41997f47-b7de-cf98-6cb6-f913c0a6be74" targetId="8f662d2c-803f-f4f0-1e78-a33d0b380244" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="0c9feea2-d738-f25a-79cb-7c020f6a0f33" name="Digital Weapons" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="ebd25c8f-b0ce-7750-d124-4170250eaaea" targetId="b43dc580-1947-00a2-3d67-03bde443112b" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="0d4e8765-57f0-cfe4-fa1d-3477de3fecb2" name="Relic Blade" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="99a5e956-4835-0b0f-15a4-19cb7d6ab729" targetId="e0528545-6d58-cbbb-bda6-48622bf4e720" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="08a4d101-263b-7d4e-c6f1-a2d68ed2adbe" name="Basic Wargear" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
@@ -13425,59 +13173,39 @@
       <links/>
     </entryGroup>
     <entryGroup id="601e7c98-b960-35b2-0224-803efd8413eb" name="Special Issue Wargear" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
-      <entries>
-        <entry id="fbfeb0d1-a0c4-31b7-c4f1-31afe470692b" name="Auspex" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="cf292e00-4569-2c88-763b-9631a4658238" targetId="37591ce3-75cb-04e3-fbf3-b24c277514e0" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="5ca8af36-bf22-7e38-e579-3fb9bf53bf8b" name="Melta Bombs" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="ceff0411-ac19-fa4d-6664-5b57530e1728" targetId="7154132f-7a1a-aa55-0d4f-78fa4d2c7b91" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="d4180029-c1d5-27b7-b697-a37ce1d29031" name="Digital Weapons" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="e6c82045-9e45-60bb-2358-50678a7885ea" targetId="b43dc580-1947-00a2-3d67-03bde443112b" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="997e103c-9f47-f232-0f80-f6d6571c8f8e" name="Teleport Homer" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="52bbd453-f82f-ce3f-ecf3-b2ded072ace4" targetId="8f662d2c-803f-f4f0-1e78-a33d0b380244" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
+      <entries/>
       <entryGroups/>
       <modifiers/>
-      <links/>
+      <links>
+        <link id="3c9e92a1-45a5-c395-ec59-43bbe888cc62" targetId="c06a6c8a-8846-e239-94b7-3b3b998c9607" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="fc1f1743-4894-aa5f-9949-b816eed7cda3" targetId="e21517fe-e39c-4f07-0b08-e3394eb2bd0f" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="b0fdc280-66be-dcda-d51f-c9864b1a23df" targetId="f4d11e65-60e7-f09d-a48d-93ef94cbf78e" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="07ba898f-a24e-4d93-d485-bfffa27013a6" targetId="0c9feea2-d738-f25a-79cb-7c020f6a0f33" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="415a28d5-8d32-5d12-f10e-dfae74a67857" targetId="ce4ba95a-b62a-5e38-ea3a-70cef5d3c767" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="0.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="b8d0207d-30db-8ac2-c3fe-aeac993aa0d5" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="30bf8d41-9c84-865e-3b13-59760abf3ab1" targetId="b8d0207d-30db-8ac2-c3fe-aeac993aa0d5" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="0.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="ce4ba95a-b62a-5e38-ea3a-70cef5d3c767" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
     </entryGroup>
     <entryGroup id="be8750ac-eb5d-f88a-f968-89273f15f457" name="Special Weapons (1)" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
       <entries/>
@@ -14793,6 +14521,16 @@
           <conditionGroups/>
         </modifier>
       </modifiers>
+    </profile>
+    <profile id="e0528545-6d58-cbbb-bda6-48622bf4e720" profileTypeId="576561706f6e23232344415441232323" name="Relic Blade" hidden="false" page="122">
+      <characteristics>
+        <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="-"/>
+        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="+2"/>
+        <characteristic characteristicId="415023232344415441232323" name="AP" value="3"/>
+        <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Melee, Two-handed"/>
+        <characteristic characteristicId="506723232344415441232323" name="Pg" value="122"/>
+      </characteristics>
+      <modifiers/>
     </profile>
   </sharedProfiles>
 </catalogue>
