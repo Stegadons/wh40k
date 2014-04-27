@@ -907,39 +907,15 @@
     </entry>
     <entry id="797acf07-79a2-d612-3fb3-7d83beee8874" name="Centurion Assault Squad" points="0.0" categoryId="456c6974657323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" book="Codex: Space Marines" page="94">
       <entries>
-        <entry id="8db73f83-6dee-afd7-612d-4571ca6d97ca" name="Centurion" points="60.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="5" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="8f95fd23-f444-edb3-73c7-59916605a4d1" targetId="27cd2402-f60a-0daf-b964-8c67e098b9f5" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="a62eb473-f72c-86f0-c658-fd0ee7cad0d3" name="Centurion Sergeant" points="70.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="417f5d09-e604-291f-f5e9-3001557245cd" targetId="9bac93a8-5295-c169-45af-0a68a61d1661" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="384dc6fe-f092-0fd1-a3d6-b8c0280c473b" name="Replace Ironclad Assault Launchers w/ Hurricane Bolter" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers>
-            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="797acf07-79a2-d612-3fb3-7d83beee8874" incrementChildId="a62eb473-f72c-86f0-c658-fd0ee7cad0d3" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="797acf07-79a2-d612-3fb3-7d83beee8874" incrementChildId="8eb8ea7f-3499-32d3-f124-944ee66ea596" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
-            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="797acf07-79a2-d612-3fb3-7d83beee8874" incrementChildId="8db73f83-6dee-afd7-612d-4571ca6d97ca" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="797acf07-79a2-d612-3fb3-7d83beee8874" incrementChildId="ee93af91-394d-60de-180f-7c89287fd5e8" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
@@ -956,11 +932,11 @@
           <entries/>
           <entryGroups/>
           <modifiers>
-            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="797acf07-79a2-d612-3fb3-7d83beee8874" incrementChildId="a62eb473-f72c-86f0-c658-fd0ee7cad0d3" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="797acf07-79a2-d612-3fb3-7d83beee8874" incrementChildId="8eb8ea7f-3499-32d3-f124-944ee66ea596" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
-            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="797acf07-79a2-d612-3fb3-7d83beee8874" incrementChildId="8db73f83-6dee-afd7-612d-4571ca6d97ca" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="797acf07-79a2-d612-3fb3-7d83beee8874" incrementChildId="ee93af91-394d-60de-180f-7c89287fd5e8" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
@@ -969,24 +945,6 @@
           <profiles/>
           <links>
             <link id="0ae68bb7-824c-0f03-de1e-b4b40e98afc5" targetId="e4cb8f09-fb03-726e-2af3-dfdde35c47b9" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="2bab7325-454e-edbb-3bd6-09957b8ee613" name="Omniscope" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="0a89d013-4c97-9bc7-69df-5a73923f35f2" targetId="a62aaf34-a5cd-d0a6-6b6e-d16bf4ace6b6" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="02c43190-449a-9d9c-f5b3-bf4e2d3e0ca5" targetId="876d1b43-b2d9-092f-b6cb-63f2f566c532" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="4b407ac6-3453-15b3-6fa1-230a4f76bd46" targetId="07d40ffd-2489-1a90-c857-a7ac50c99a79" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -1035,50 +993,42 @@
         <link id="50359f9d-c37a-6aa1-7de5-75aefb365288" targetId="a31d39ae-6c3e-0868-9907-48b64c3bbb88" linkType="profile">
           <modifiers/>
         </link>
+        <link id="8eb8ea7f-3499-32d3-f124-944ee66ea596" targetId="6de94635-0c4a-3d5f-9c2d-593568013e3b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ee93af91-394d-60de-180f-7c89287fd5e8" targetId="8e38b7e4-8b94-e38e-51cf-17d8acdfc056" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ed643a7c-8366-cde5-f9b0-0c5a95669763" targetId="d8840037-75b8-2bd5-c12c-39a32f26142b" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="270a6b0b-944a-1685-edcf-cf9e3ecf5155" name="Centurion Devastator Squad" points="0.0" categoryId="486561767920537570706f727423232344415441232323" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="94">
       <entries>
-        <entry id="98929b5d-178e-e182-8465-c1338cc36236" name="Centurion" points="60.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="5" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-        <entry id="4b27a9c0-1a4c-61f9-00c3-72b2900eac04" name="Centurion Sergeant" points="70.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-        <entry id="e6a8c8ca-336d-11d3-dea9-1980ff63f873" name="Chest Missile Launcher" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="e6a8c8ca-336d-11d3-dea9-1980ff63f873" name="Replace Hurricane Bolter w/ Missile Launcher" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers>
-            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="98929b5d-178e-e182-8465-c1338cc36236" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="270a6b0b-944a-1685-edcf-cf9e3ecf5155" incrementChildId="a8d0cd5f-9df7-23f3-890a-1cfe57db4456" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
-            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="4b27a9c0-1a4c-61f9-00c3-72b2900eac04" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="270a6b0b-944a-1685-edcf-cf9e3ecf5155" incrementChildId="e53bf35c-f643-ee63-da41-b7dd53d3acb0" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
           </modifiers>
           <rules/>
           <profiles/>
-          <links/>
-        </entry>
-        <entry id="767b35f5-e038-9ca2-ce76-e9af3533426d" name="Omniscope" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
+          <links>
+            <link id="e58016d4-116e-e0d0-bd51-4ba256d78dbd" targetId="13b7bd3a-4e46-6cde-d3a6-56f317e444f3" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="8bf30f0a-4ca2-26d6-e6e9-ec51e0cd8a8b" targetId="dd83a2f3-4195-4c48-7408-be29913322c3" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
       </entries>
       <entryGroups>
@@ -1090,7 +1040,11 @@
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="fe0adf24-0873-b898-9f38-896ca63baed4" targetId="7b48e4ed-bfff-e326-5d10-0d1470fceaad" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
             <entry id="c7461078-f875-d269-bd0d-e8d3c510f4cc" name="Twin-linked Lascannon" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries/>
@@ -1098,7 +1052,11 @@
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="1d28aa88-673b-c8bc-d9a8-c7c12c439ec5" targetId="e6afbda8-862a-b977-5fc2-47d320d84b62" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
             <entry id="63ed3c61-d372-c3e2-80fa-a3cfda1e8474" name="Grav-cannon and grav-amp" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries/>
@@ -1106,24 +1064,31 @@
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="5189dcd4-b446-d5b0-b7c5-191271c6f962" targetId="abe1c888-e229-9161-5e3d-5946b1fcbeac" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="f0c4c7b1-8805-04f7-448a-98e517340fbd" targetId="a48fbdbf-e84c-c7df-4b1c-cfff7ee2ea56" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
           </entries>
           <entryGroups/>
           <modifiers>
-            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="4b27a9c0-1a4c-61f9-00c3-72b2900eac04" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="270a6b0b-944a-1685-edcf-cf9e3ecf5155" incrementChildId="a8d0cd5f-9df7-23f3-890a-1cfe57db4456" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
-            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="98929b5d-178e-e182-8465-c1338cc36236" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="270a6b0b-944a-1685-edcf-cf9e3ecf5155" incrementChildId="e53bf35c-f643-ee63-da41-b7dd53d3acb0" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
-            <modifier type="increment" field="minSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="98929b5d-178e-e182-8465-c1338cc36236" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="minSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="270a6b0b-944a-1685-edcf-cf9e3ecf5155" incrementChildId="e53bf35c-f643-ee63-da41-b7dd53d3acb0" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
-            <modifier type="increment" field="minSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="4b27a9c0-1a4c-61f9-00c3-72b2900eac04" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="minSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="270a6b0b-944a-1685-edcf-cf9e3ecf5155" incrementChildId="a8d0cd5f-9df7-23f3-890a-1cfe57db4456" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
@@ -1164,6 +1129,18 @@
           <modifiers/>
         </link>
         <link id="e53122fa-94ab-837f-f49f-b7ca5788ed42" targetId="15f12b40-90ae-a6cf-a89c-637f09456817" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a8d0cd5f-9df7-23f3-890a-1cfe57db4456" targetId="6de94635-0c4a-3d5f-9c2d-593568013e3b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="e53bf35c-f643-ee63-da41-b7dd53d3acb0" targetId="8e38b7e4-8b94-e38e-51cf-17d8acdfc056" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="6b3219a5-be2e-6d0d-ffa2-245c0b3b27ac" targetId="381fd6f6-dbe2-08e1-b23d-a8029f9c7309" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="0b11b830-3b81-cf08-25cf-435886edbdbe" targetId="d8840037-75b8-2bd5-c12c-39a32f26142b" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -12561,6 +12538,48 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="6de94635-0c4a-3d5f-9c2d-593568013e3b" name="Centurion" points="60.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="5" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="768105e5-e7aa-59ca-2635-5f2c9864f4a9" targetId="27cd2402-f60a-0daf-b964-8c67e098b9f5" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="8e38b7e4-8b94-e38e-51cf-17d8acdfc056" name="Centurion Sergeant" points="70.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="068b358c-831e-1f29-0940-14bfbc57b2d0" targetId="9bac93a8-5295-c169-45af-0a68a61d1661" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="d8840037-75b8-2bd5-c12c-39a32f26142b" name="Omniscope" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="f681fbd3-338a-b447-f3a4-24f0d0c1b4af" targetId="a62aaf34-a5cd-d0a6-6b6e-d16bf4ace6b6" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="b2c77f7c-fa6a-be6e-7fd0-f7667b44a71a" targetId="876d1b43-b2d9-092f-b6cb-63f2f566c532" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f4930a76-0a35-8d04-25eb-7073f7de0ea3" targetId="07d40ffd-2489-1a90-c857-a7ac50c99a79" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="08a4d101-263b-7d4e-c6f1-a2d68ed2adbe" name="Basic Wargear" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
@@ -14610,6 +14629,13 @@
       <characteristics>
         <characteristic characteristicId="4465736372697074696f6e23232344415441232323" name="Description" value="Model has no penalty to initiative for charging through difficult terrain. Charging enemies don&apos;t get bonus attack (unles model is locked in combat from previous turn)."/>
         <characteristic characteristicId="506723232344415441232323" name="Pg"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="a48fbdbf-e84c-c7df-4b1c-cfff7ee2ea56" profileTypeId="57617267656172204974656d23232344415441232323" name="Grav Amp" hidden="false" book="Codex: Space Marines (2013)" page="124">
+      <characteristics>
+        <characteristic characteristicId="4465736372697074696f6e23232344415441232323" name="Description" value="Can re-roll to Wound or effect on vehicle with Grav weapons"/>
+        <characteristic characteristicId="506723232344415441232323" name="Pg" value="124"/>
       </characteristics>
       <modifiers/>
     </profile>
