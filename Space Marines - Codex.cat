@@ -515,7 +515,7 @@
         </link>
       </links>
     </entry>
-    <entry id="9a810833-70ad-f6bc-4a5a-0dce4ad10855" name="Captain" points="90.0" categoryId="485123232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" book="Codex: Space Marines (2013)" page="0">
+    <entry id="9a810833-70ad-f6bc-4a5a-0dce4ad10855" name="Captain" points="90.0" categoryId="485123232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" book="Codex: Space Marines (2013)" page="79">
       <entries>
         <entry id="12a4ec45-0b28-6f97-1ef9-b6b640c7b765" name="Storm Shield" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
@@ -659,81 +659,36 @@
         </link>
       </links>
     </entry>
-    <entry id="a6dd5627-e0e2-4f37-acc7-1c82b0da0cb1" name="Captain Cato Sicarius" points="185.0" categoryId="485123232344415441232323" type="unit" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="0" collective="false" page="0">
+    <entry id="a6dd5627-e0e2-4f37-acc7-1c82b0da0cb1" name="Captain Sicarius" points="185.0" categoryId="485123232344415441232323" type="unit" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="0" collective="false" book="Codex: Space Marines (2013)" page="106">
       <entries/>
       <entryGroups>
         <entryGroup id="233fed13-0f65-b6db-4c55-bfbc797fed19" name="Wargear" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
           <entries>
-            <entry id="89d939bf-66a9-a9a7-87a5-5737dd30b640" name="Frag and Krak Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="34307617-3fbc-8bdc-3373-01bdfc063f9a" profileTypeId="576561706f6e23232344415441232323" name="Frag Grenades" hidden="false" book="BRB" page="61">
-                  <characteristics>
-                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="8&quot;"/>
-                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="3"/>
-                    <characteristic characteristicId="415023232344415441232323" name="AP" value="-"/>
-                    <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Assault 1, Blast, Don&apos;t suffer Initive penalty for charging through cover"/>
-                    <characteristic characteristicId="506723232344415441232323" name="Pg" value="61"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-                <profile id="66b77c23-881a-7a0a-32a2-a20716f79221" profileTypeId="576561706f6e23232344415441232323" name="Krak Grenades" hidden="false" book="BRB" page="62">
-                  <characteristics>
-                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="8&quot; (thrown)/-(Melee)"/>
-                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="6"/>
-                    <characteristic characteristicId="415023232344415441232323" name="AP" value="4"/>
-                    <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Assault 1(Thrown)/Only on Vehicles and MCs (Melee)"/>
-                    <characteristic characteristicId="506723232344415441232323" name="Pg" value="62"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
             <entry id="af03902b-f571-5f52-c2d4-3a6f73b9ba66" name="Plasma Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
-              <profiles>
-                <profile id="753d08f5-043c-bb4b-159b-049438b13f78" profileTypeId="576561706f6e23232344415441232323" name="Plasma Pistol" hidden="false" book="BRB" page="57">
-                  <characteristics>
-                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="12&quot;"/>
-                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="7"/>
-                    <characteristic characteristicId="415023232344415441232323" name="AP" value="2"/>
-                    <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Pistol"/>
-                    <characteristic characteristicId="506723232344415441232323" name="Pg" value="57"/>
-                  </characteristics>
+              <profiles/>
+              <links>
+                <link id="f1a278f6-9e36-7fb5-ba7b-07680d57a98e" targetId="79a1731b-d6c2-93b4-0bb1-c6d68d365c24" linkType="profile">
                   <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-            <entry id="dba5c030-0119-e5db-280c-b6324efeda26" name="Iron Halo" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="43d0b6e7-39de-9e50-99b5-d5eb86cb1bd2" profileTypeId="57617267656172204974656d23232344415441232323" name="Iron Halo" hidden="false" book="Codex: Dark Angels 6th" page="63">
-                  <characteristics>
-                    <characteristic characteristicId="4465736372697074696f6e23232344415441232323" name="Description" value="4++"/>
-                    <characteristic characteristicId="506723232344415441232323" name="Pg" value="63"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
+                </link>
+              </links>
             </entry>
           </entries>
           <entryGroups/>
           <modifiers/>
-          <links/>
+          <links>
+            <link id="019298e2-d67d-1bd3-64a0-d43c2332e4f4" targetId="169954a7-d085-4769-42b0-c0aba750a597" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="6524ab10-da5e-3df8-6fca-0df335aa5d89" targetId="af22f316-a52a-f960-bcc3-5270b61439a1" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
         </entryGroup>
-        <entryGroup id="42ab0b66-a0d7-17fd-dc0b-6813b469105d" name="Chapter Relics" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+        <entryGroup id="42ab0b66-a0d7-17fd-dc0b-6813b469105d" name="Chapter Relics" minSelections="2" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
           <entries>
             <entry id="3204a8ce-13ba-75cd-6f15-5c3ec30b8b22" name="Talassarain Tempest Blade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries/>
@@ -762,21 +717,16 @@
               <entries/>
               <entryGroups/>
               <modifiers/>
-              <rules>
-                <rule id="3dbe4917-8249-fdd3-f1d5-1f74ce6e1d06" name="Feel No Pain" hidden="false" page="0">
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="3b9cd484-f881-28b6-fcc3-6048097162cc" targetId="deaa33cb-d0a7-5bd2-c810-d77f2f26d12c" linkType="profile">
                   <modifiers/>
-                </rule>
-              </rules>
-              <profiles>
-                <profile id="4482a9ae-9b79-41db-2ed1-eb46191f32ba" profileTypeId="57617267656172204974656d23232344415441232323" name="Artificer Armour" hidden="false" page="0">
-                  <characteristics>
-                    <characteristic characteristicId="4465736372697074696f6e23232344415441232323" name="Description" value="Confers a 2+ Sv"/>
-                    <characteristic characteristicId="506723232344415441232323" name="Pg"/>
-                  </characteristics>
+                </link>
+                <link id="b15f32bf-3892-0431-16d4-6d03ddede9ec" targetId="7878fe8e-6f1a-b1b7-5309-3439c1516062" linkType="rule">
                   <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
+                </link>
+              </links>
             </entry>
           </entries>
           <entryGroups/>
@@ -786,27 +736,13 @@
       </entryGroups>
       <modifiers>
         <modifier type="set" field="maxInRoster" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions/>
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition parentId="roster" childId="dbf041af-8b1d-f1f8-9462-6b870a8e6a31" field="selections" type="greater than" value="0.0"/>
-              </conditions>
-              <conditionGroups/>
-            </conditionGroup>
-          </conditionGroups>
+          <conditions>
+            <condition parentId="roster" childId="dbf041af-8b1d-f1f8-9462-6b870a8e6a31" field="selections" type="greater than" value="0.0"/>
+          </conditions>
+          <conditionGroups/>
         </modifier>
       </modifiers>
       <rules>
-        <rule id="88bbcb62-cfd0-dc14-2791-4ecfd4d9d4cb" name="And They Shall Know no Fear" hidden="false" page="0">
-          <modifiers/>
-        </rule>
-        <rule id="c356216d-b178-515d-545b-0d3fe2863bb5" name="Chapter Tactics (Ultramarines)" hidden="false" page="0">
-          <modifiers/>
-        </rule>
-        <rule id="00adb2ff-3438-f7ab-79df-8aed343ca39e" name="Independent Character" hidden="false" page="0">
-          <modifiers/>
-        </rule>
         <rule id="743be7a0-54a2-0c05-4880-4f9b6a73e96d" name="Rites of Battle" hidden="false" page="0">
           <modifiers/>
         </rule>
@@ -816,12 +752,9 @@
         <rule id="58f118a3-035a-af92-78fd-b841c642035e" name="Battle-forged Heroes" hidden="false" page="0">
           <modifiers/>
         </rule>
-        <rule id="f25985e0-5d59-7507-4d41-2ac80d4753e7" name="Warlord Trait: The Imperium&apos;s Sword" hidden="false" page="0">
-          <modifiers/>
-        </rule>
       </rules>
       <profiles>
-        <profile id="ed430614-3198-7cd6-d49a-a33d7e5d414b" profileTypeId="556e697423232344415441232323" name="Cato Sicarius" hidden="false" book="Codex: Space Marines" page="105">
+        <profile id="ed430614-3198-7cd6-d49a-a33d7e5d414b" profileTypeId="556e697423232344415441232323" name="Captain Sicarius" hidden="false" book="Codex: Space Marines (2013)" page="106">
           <characteristics>
             <characteristic characteristicId="556e6974205479706523232344415441232323" name="Unit Type" value="Infantry"/>
             <characteristic characteristicId="575323232344415441232323" name="WS" value="6"/>
@@ -838,65 +771,58 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="e2009e34-512b-0e57-ba20-e7fcbdfc99dc" targetId="b0a75006-da49-ae36-212f-9059c11f2821" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="022be4a1-a8d8-2af2-c0b7-55e9a3729259" targetId="26629c0a-c3a2-601d-f32f-3080e4a0c362" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="443af56a-36b2-8b42-a5bb-ea8dfe6146a8" targetId="6e071b9e-25bf-6dba-4ea6-f9bdf276b069" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="497826a9-1428-3fc9-09e4-72b6a71d75f5" targetId="2e716a18-990f-4347-d7cb-e378f60a63b9" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
-    <entry id="3e332cbe-98fb-4737-bbfe-6ac265b6957d" name="Captain Darnath Lysander" points="230.0" categoryId="485123232344415441232323" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="0" collective="false" page="0">
+    <entry id="3e332cbe-98fb-4737-bbfe-6ac265b6957d" name="Captain Lysander" points="230.0" categoryId="485123232344415441232323" type="unit" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="0" collective="false" book="Codex: Space Marines (2013)" page="114">
       <entries/>
       <entryGroups>
         <entryGroup id="4e51ec74-c573-9bf0-0886-ec5d3b008173" name="Wargear" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
           <entries>
-            <entry id="0aa5e386-21de-e36c-c8c3-2dc97a1c77da" name="Iron Halo" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="9374bf4a-3c78-330d-6867-b8e187f49914" profileTypeId="57617267656172204974656d23232344415441232323" name="Iron Halo" hidden="false" book="Codex: Dark Angels 6th" page="63">
-                  <characteristics>
-                    <characteristic characteristicId="4465736372697074696f6e23232344415441232323" name="Description" value="4++"/>
-                    <characteristic characteristicId="506723232344415441232323" name="Pg" value="63"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
             <entry id="fcb74b6b-b3b0-d7b5-2b9f-9aff68f0ff74" name="Terminator Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
-              <profiles>
-                <profile id="3edd1dc8-1e7c-a96a-c746-177fd4ff06a3" profileTypeId="57617267656172204974656d23232344415441232323" name="Terminator Armour" hidden="false" book="Codex: Dark Angels 6th" page="65">
-                  <characteristics>
-                    <characteristic characteristicId="4465736372697074696f6e23232344415441232323" name="Description" value="2+/5++, have the Bulky, Deep Strike, Relentless and may not Sweep Advance"/>
-                    <characteristic characteristicId="506723232344415441232323" name="Pg" value="65"/>
-                  </characteristics>
+              <profiles/>
+              <links>
+                <link id="17209bec-2588-dab6-2f9f-526a78112a06" targetId="6ee86cdb-44ec-741f-32f4-3fbe935807cf" linkType="profile">
                   <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
+                </link>
+              </links>
             </entry>
             <entry id="a407d6a5-39af-f7b3-655f-65b9e5b2ce5c" name="Storm Shield" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
-              <profiles>
-                <profile id="25dd0108-e036-d8ee-8626-7aee871a897c" profileTypeId="57617267656172204974656d23232344415441232323" name="Storm Shield" hidden="false" book="" page="64">
-                  <characteristics>
-                    <characteristic characteristicId="4465736372697074696f6e23232344415441232323" name="Description" value="3++ but can never count as having 2 close combat weapons"/>
-                    <characteristic characteristicId="506723232344415441232323" name="Pg" value=""/>
-                  </characteristics>
+              <profiles/>
+              <links>
+                <link id="0912c4a7-914e-beb0-c8b0-7c10baf54097" targetId="658fd15b-771f-375a-d3fb-87367b9c46b0" linkType="profile">
                   <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
+                </link>
+              </links>
             </entry>
           </entries>
           <entryGroups/>
           <modifiers/>
-          <links/>
+          <links>
+            <link id="9f9bd0a5-ce31-4423-77df-a96b3ca10722" targetId="af22f316-a52a-f960-bcc3-5270b61439a1" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
         </entryGroup>
         <entryGroup id="78d00898-dd64-aa0a-b5de-757ce121b408" name="Chapter Relics" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
           <entries>
@@ -939,27 +865,12 @@
         </modifier>
       </modifiers>
       <rules>
-        <rule id="2c940a63-bb6f-7020-ba1b-81e1162054bf" name="And They Shall Know No Fear" hidden="false" page="0">
-          <modifiers/>
-        </rule>
         <rule id="6bedce1f-3866-47fe-54b2-194ebbfb80bd" name="Icon of Obstinacy" hidden="false" page="0">
-          <modifiers/>
-        </rule>
-        <rule id="97aa251f-82ff-66fe-4821-2230800577d9" name="Independent Character" hidden="false" page="0">
-          <modifiers/>
-        </rule>
-        <rule id="0c5f7b2b-8e4d-9d15-30d3-50f776cf03b0" name="Eternal Warrior" hidden="false" page="0">
-          <modifiers/>
-        </rule>
-        <rule id="e14181fd-f754-cb55-baf8-47111002eda9" name="Chapter Tactics (Imperial Fists)" hidden="false" page="0">
-          <modifiers/>
-        </rule>
-        <rule id="0bbcb7b0-c881-63da-b3d5-52472a05247e" name="Warlord Trait: Champion of Humanity" hidden="false" page="0">
           <modifiers/>
         </rule>
       </rules>
       <profiles>
-        <profile id="619162b1-93f2-1a7a-bf78-78ce206947e8" profileTypeId="556e697423232344415441232323" name="Darnath Lysander" hidden="false" book="Codex: Space Marines" page="114">
+        <profile id="619162b1-93f2-1a7a-bf78-78ce206947e8" profileTypeId="556e697423232344415441232323" name="Captain Lysander" hidden="false" book="Codex: Space Marines (2013)" page="114">
           <characteristics>
             <characteristic characteristicId="556e6974205479706523232344415441232323" name="Unit Type" value="Infantry"/>
             <characteristic characteristicId="575323232344415441232323" name="WS" value="6"/>
@@ -976,7 +887,23 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="a84c559b-50f4-affb-49b8-e0c93f863c14" targetId="b0a75006-da49-ae36-212f-9059c11f2821" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a5c81a93-9bb6-016f-acfb-1bde68388686" targetId="6e071b9e-25bf-6dba-4ea6-f9bdf276b069" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e59d3119-4389-8e37-377c-06246f953721" targetId="69f65a59-3099-2929-ecc4-d90bc1f9b84f" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="47876b97-6ccc-9672-3699-224ad183767c" targetId="2d48d982-faa7-8c4f-9515-b0842fbf4d8e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4a07e0bb-b04b-3e15-78b8-68477ac84f04" targetId="d9ba5477-cb1c-c8a0-1e9e-abd14d8c5a60" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="797acf07-79a2-d612-3fb3-7d83beee8874" name="Centurion Assault Squad" points="0.0" categoryId="456c6974657323232344415441232323" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries>
@@ -12445,7 +12372,11 @@
       <modifiers/>
       <rules/>
       <profiles/>
-      <links/>
+      <links>
+        <link id="2d6f4ec6-59ee-1593-d82d-8dad04b0eeac" targetId="3de10de3-4057-57df-788c-f84832f6009b" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="d5a52a3e-cdef-d0e5-3f9e-db97c1af7d5c" name="Storm Bolter" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries/>
@@ -12566,6 +12497,37 @@
           <modifiers/>
         </link>
       </links>
+    </entry>
+    <entry id="169954a7-d085-4769-42b0-c0aba750a597" name="Frag and Krak Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="278dfb16-0b08-55e8-49dd-9f2c7efcdde2" targetId="333bca0d-9f8c-7716-6d71-9c2a5ffc501c" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="556420ea-3544-3ba3-f913-dde076a8c77e" targetId="a7b704ae-416e-da95-9cf7-478a7e46bfe0" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="af22f316-a52a-f960-bcc3-5270b61439a1" name="Iron Halo" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="c7857e93-cb64-3e50-13f6-be1186ddbb5b" profileTypeId="57617267656172204974656d23232344415441232323" name="Iron Halo" hidden="false" book="Codex: Dark Angels 6th" page="63">
+          <characteristics>
+            <characteristic characteristicId="4465736372697074696f6e23232344415441232323" name="Description" value="4++"/>
+            <characteristic characteristicId="506723232344415441232323" name="Pg" value="63"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
@@ -13613,6 +13575,41 @@
       <modifiers/>
     </rule>
     <rule id="91f82b5f-839f-9019-d979-095f04d79166" name="Very Bulky" hidden="false" page="0">
+      <modifiers/>
+    </rule>
+    <rule id="3de10de3-4057-57df-788c-f84832f6009b" name="Mounted Assault" hidden="false" page="0">
+      <modifiers>
+        <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="direct parent" childId="9a810833-70ad-f6bc-4a5a-0dce4ad10855" field="selections" type="instance of" value="0.0"/>
+                <condition parentId="direct parent" childId="7509ce3c-c505-fb5c-ad95-d7d27ee2313b" field="selections" type="instance of" value="0.0"/>
+                <condition parentId="roster" childId="cd33263f-6b0d-4121-9249-bf8f3bdef81c" field="selections" type="greater than" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </rule>
+    <rule id="7878fe8e-6f1a-b1b7-5309-3439c1516062" name="Feel No Pain" hidden="false" page="0">
+      <modifiers/>
+    </rule>
+    <rule id="26629c0a-c3a2-601d-f32f-3080e4a0c362" name="Chapter Tactics (Ultramarines)" hidden="false" page="0">
+      <modifiers/>
+    </rule>
+    <rule id="2e716a18-990f-4347-d7cb-e378f60a63b9" name="Warlord Trait: The Imperium&apos;s Sword" hidden="false" page="0">
+      <modifiers/>
+    </rule>
+    <rule id="69f65a59-3099-2929-ecc4-d90bc1f9b84f" name="Eternal Warrior" hidden="false" page="0">
+      <modifiers/>
+    </rule>
+    <rule id="2d48d982-faa7-8c4f-9515-b0842fbf4d8e" name="Warlord Trait: Champion of Humanity" hidden="false" page="0">
+      <modifiers/>
+    </rule>
+    <rule id="d9ba5477-cb1c-c8a0-1e9e-abd14d8c5a60" name="Chapter Tactics (Imperial Fists)" hidden="false" page="0">
       <modifiers/>
     </rule>
   </sharedRules>
