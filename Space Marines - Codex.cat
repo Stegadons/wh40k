@@ -905,15 +905,19 @@
         </link>
       </links>
     </entry>
-    <entry id="797acf07-79a2-d612-3fb3-7d83beee8874" name="Centurion Assault Squad" points="0.0" categoryId="456c6974657323232344415441232323" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="797acf07-79a2-d612-3fb3-7d83beee8874" name="Centurion Assault Squad" points="0.0" categoryId="456c6974657323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" book="Codex: Space Marines" page="94">
       <entries>
-        <entry id="8db73f83-6dee-afd7-612d-4571ca6d97ca" name="Centurion" points="60.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="5" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="8db73f83-6dee-afd7-612d-4571ca6d97ca" name="Centurion" points="60.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="5" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
-          <links/>
+          <links>
+            <link id="8f95fd23-f444-edb3-73c7-59916605a4d1" targetId="27cd2402-f60a-0daf-b964-8c67e098b9f5" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
         <entry id="a62eb473-f72c-86f0-c658-fd0ee7cad0d3" name="Centurion Sergeant" points="70.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
@@ -921,7 +925,11 @@
           <modifiers/>
           <rules/>
           <profiles/>
-          <links/>
+          <links>
+            <link id="417f5d09-e604-291f-f5e9-3001557245cd" targetId="9bac93a8-5295-c169-45af-0a68a61d1661" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
         <entry id="384dc6fe-f092-0fd1-a3d6-b8c0280c473b" name="Replace Ironclad Assault Launchers w/ Hurricane Bolter" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
@@ -938,7 +946,11 @@
           </modifiers>
           <rules/>
           <profiles/>
-          <links/>
+          <links>
+            <link id="e26bc925-9d29-6441-60a8-3c97ffbd2be2" targetId="381fd6f6-dbe2-08e1-b23d-a8029f9c7309" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
         <entry id="4104813a-e92e-71ff-0b4c-749e4913caf6" name="Replace twin-linked flamer w/ twin-linked meltagun" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
@@ -955,7 +967,11 @@
           </modifiers>
           <rules/>
           <profiles/>
-          <links/>
+          <links>
+            <link id="0ae68bb7-824c-0f03-de1e-b4b40e98afc5" targetId="e4cb8f09-fb03-726e-2af3-dfdde35c47b9" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
         <entry id="2bab7325-454e-edbb-3bd6-09957b8ee613" name="Omniscope" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
@@ -963,7 +979,17 @@
           <modifiers/>
           <rules/>
           <profiles/>
-          <links/>
+          <links>
+            <link id="0a89d013-4c97-9bc7-69df-5a73923f35f2" targetId="a62aaf34-a5cd-d0a6-6b6e-d16bf4ace6b6" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="02c43190-449a-9d9c-f5b3-bf4e2d3e0ca5" targetId="876d1b43-b2d9-092f-b6cb-63f2f566c532" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="4b407ac6-3453-15b3-6fa1-230a4f76bd46" targetId="07d40ffd-2489-1a90-c857-a7ac50c99a79" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
       </entries>
       <entryGroups>
@@ -1001,6 +1027,12 @@
           <modifiers/>
         </link>
         <link id="f6e83273-ea0b-f0c4-f11b-fa905b18e586" targetId="15f12b40-90ae-a6cf-a89c-637f09456817" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4237eb54-7a09-ac96-7f24-ca0be2bcd078" targetId="41b42e10-c49f-3b80-9bb1-e61dd0e626e9" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="50359f9d-c37a-6aa1-7de5-75aefb365288" targetId="a31d39ae-6c3e-0868-9907-48b64c3bbb88" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -13612,6 +13644,12 @@
     <rule id="d9ba5477-cb1c-c8a0-1e9e-abd14d8c5a60" name="Chapter Tactics (Imperial Fists)" hidden="false" page="0">
       <modifiers/>
     </rule>
+    <rule id="876d1b43-b2d9-092f-b6cb-63f2f566c532" name="Night Vision" hidden="false" page="0">
+      <modifiers/>
+    </rule>
+    <rule id="07d40ffd-2489-1a90-c857-a7ac50c99a79" name="Split Fire" hidden="false" page="0">
+      <modifiers/>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="deaa33cb-d0a7-5bd2-c810-d77f2f26d12c" profileTypeId="57617267656172204974656d23232344415441232323" name="Artificer Armour" hidden="false" page="0">
@@ -14526,6 +14564,52 @@
         <characteristic characteristicId="415023232344415441232323" name="AP" value="3"/>
         <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Melee, Two-handed"/>
         <characteristic characteristicId="506723232344415441232323" name="Pg" value="122"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="27cd2402-f60a-0daf-b964-8c67e098b9f5" profileTypeId="556e697423232344415441232323" name="Centurion" hidden="false" book="Codex: Space Marines (2013)" page="94">
+      <characteristics>
+        <characteristic characteristicId="556e6974205479706523232344415441232323" name="Unit Type" value="Infantry"/>
+        <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
+        <characteristic characteristicId="425323232344415441232323" name="BS" value="4"/>
+        <characteristic characteristicId="5323232344415441232323" name="S" value="5"/>
+        <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
+        <characteristic characteristicId="5723232344415441232323" name="W" value="2"/>
+        <characteristic characteristicId="4923232344415441232323" name="I" value="4"/>
+        <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
+        <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+        <characteristic characteristicId="5361766523232344415441232323" name="Save" value="2+"/>
+        <characteristic characteristicId="506723232344415441232323" name="Pg" value="94"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="9bac93a8-5295-c169-45af-0a68a61d1661" profileTypeId="556e697423232344415441232323" name="Centurion Sergeant" hidden="false" book="Codex: Space Marines (2013)" page="94">
+      <characteristics>
+        <characteristic characteristicId="556e6974205479706523232344415441232323" name="Unit Type" value="Infantry (Character)"/>
+        <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
+        <characteristic characteristicId="425323232344415441232323" name="BS" value="4"/>
+        <characteristic characteristicId="5323232344415441232323" name="S" value="5"/>
+        <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
+        <characteristic characteristicId="5723232344415441232323" name="W" value="2"/>
+        <characteristic characteristicId="4923232344415441232323" name="I" value="4"/>
+        <characteristic characteristicId="4123232344415441232323" name="A" value="2"/>
+        <characteristic characteristicId="4c4423232344415441232323" name="LD" value="9"/>
+        <characteristic characteristicId="5361766523232344415441232323" name="Save" value="2+"/>
+        <characteristic characteristicId="506723232344415441232323" name="Pg" value="94"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="a62aaf34-a5cd-d0a6-6b6e-d16bf4ace6b6" profileTypeId="57617267656172204974656d23232344415441232323" name="Omniscope" hidden="false" book="Codex: Space Marines (2013)" page="125">
+      <characteristics>
+        <characteristic characteristicId="4465736372697074696f6e23232344415441232323" name="Description" value="Model with an omniscope has the Night Vision and Split fire Special rules"/>
+        <characteristic characteristicId="506723232344415441232323" name="Pg" value="125"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="a31d39ae-6c3e-0868-9907-48b64c3bbb88" profileTypeId="57617267656172204974656d23232344415441232323" name="Ironclad Assault Launchers" hidden="false" book="Codex: Space Marines (2013)" page="126">
+      <characteristics>
+        <characteristic characteristicId="4465736372697074696f6e23232344415441232323" name="Description" value="Model has no penalty to initiative for charging through difficult terrain. Charging enemies don&apos;t get bonus attack (unles model is locked in combat from previous turn)."/>
+        <characteristic characteristicId="506723232344415441232323" name="Pg"/>
       </characteristics>
       <modifiers/>
     </profile>
