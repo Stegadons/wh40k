@@ -1148,7 +1148,7 @@
         </link>
       </links>
     </entry>
-    <entry id="bde12b9a-4747-47db-b3ff-a707fd83f71a" name="Chaplain" points="90.0" categoryId="485123232344415441232323" type="model" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" book="Codex: Space Marines (2013)" page="81">
+    <entry id="bde12b9a-4747-47db-b3ff-a707fd83f71a" name="Chaplain" points="90.0" categoryId="485123232344415441232323" type="unit" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" book="Codex: Space Marines (2013)" page="81">
       <entries/>
       <entryGroups>
         <entryGroup id="673c52a7-e576-46e5-b4a6-fbc5391af6af" name="Weapon" defaultEntryId="29413f5c-1841-a835-8cc4-121b2132d6d8" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
@@ -1310,7 +1310,7 @@
         </link>
         <link id="fb7b9a49-092d-8dbd-629e-ff29bcc08229" targetId="654e29f0-ca3c-f88c-e307-87a6c6647bfb" linkType="entry group">
           <modifiers>
-            <modifier type="set" field="maxSelections" value="0.0" repeat="true" numRepeats="1" incrementParentId="bde12b9a-4747-47db-b3ff-a707fd83f71a" incrementChildId="1d1de155-e8a7-8840-b325-adfb97391429" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="maxSelections" value="0.0" repeat="true" numRepeats="1" incrementParentId="bde12b9a-4747-47db-b3ff-a707fd83f71a" incrementChildId="3a2e2115-55ff-deb6-9145-a7280de27692" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
@@ -1330,7 +1330,7 @@
         </link>
       </links>
     </entry>
-    <entry id="781c4dd8-5459-482d-bd1a-18f7171129ba" name="Chaplain Cassius" points="130.0" categoryId="485123232344415441232323" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="0" collective="false" page="0">
+    <entry id="781c4dd8-5459-482d-bd1a-18f7171129ba" name="Chaplain Cassius" points="130.0" categoryId="485123232344415441232323" type="unit" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="0" collective="false" book="Codex: Space Marines (2013)" page="108">
       <entries>
         <entry id="ba53a127-eb90-c471-1b8e-d18d50b35010" name="Infernus (Combi-Flamer)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
@@ -1361,101 +1361,6 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="b79eb913-4742-bd02-fe43-086d78640969" name="Bolt Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" book="BRB" page="56">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="7ae4f748-ab5b-8c9e-d258-cb9c78de31e9" profileTypeId="576561706f6e23232344415441232323" name="Bolt Pistol" hidden="false" book="BRB" page="56">
-              <characteristics>
-                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="12&quot;"/>
-                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="4"/>
-                <characteristic characteristicId="415023232344415441232323" name="AP" value="5"/>
-                <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Pistol"/>
-                <characteristic characteristicId="506723232344415441232323" name="Pg"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="67a2ccd6-3a34-9ad3-714a-50f472df9ec0" name="Crozius Arcanum" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="f7e96a62-eb93-b597-ee7b-78c128331efc" profileTypeId="576561706f6e23232344415441232323" name="Crozius Arcanum" hidden="false" book="BRB" page="61">
-              <characteristics>
-                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="-"/>
-                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="+2"/>
-                <characteristic characteristicId="415023232344415441232323" name="AP" value="4"/>
-                <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Melee, Concussive (replaces chain sword in the options)"/>
-                <characteristic characteristicId="506723232344415441232323" name="Pg" value="61"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="e032e3a9-1ab3-51fe-240d-38395f2cf52b" name="Rosarius" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="2b953d42-35dd-aa4b-d2a1-b92cec638b23" targetId="8bb88d16-097e-98c6-e838-cf2c1d8ec420" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="2a948e39-1620-3960-bcbe-c7d8734d58a3" name="Frag and Krak Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="68c484d5-b80b-144e-6e78-792061d366bd" profileTypeId="576561706f6e23232344415441232323" name="Frag Grenades" hidden="false" book="BRB" page="61">
-              <characteristics>
-                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="8&quot;"/>
-                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="3"/>
-                <characteristic characteristicId="415023232344415441232323" name="AP" value="-"/>
-                <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Assault 1, Blast, Don&apos;t suffer Initive penalty for charging through cover"/>
-                <characteristic characteristicId="506723232344415441232323" name="Pg" value="61"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-            <profile id="e00d87e1-94dd-542f-9a22-b300afa475dc" profileTypeId="576561706f6e23232344415441232323" name="Krak Grenades" hidden="false" book="BRB" page="62">
-              <characteristics>
-                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="8&quot; (thrown)/-(Melee)"/>
-                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="6"/>
-                <characteristic characteristicId="415023232344415441232323" name="AP" value="4"/>
-                <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Assault 1(Thrown)/Only on Vehicles and MCs (Melee)"/>
-                <characteristic characteristicId="506723232344415441232323" name="Pg" value="62"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="d1680b08-fd7f-2adf-713b-607f3c6b1e0e" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="10d4d716-b30a-2274-8752-6e12b1da61d0" profileTypeId="57617267656172204974656d23232344415441232323" name="Power Armour" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="4465736372697074696f6e23232344415441232323" name="Description" value="Standard Space Marine Power Armour.  Confers a 3+ Sv"/>
-                <characteristic characteristicId="506723232344415441232323" name="Pg"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
       </entries>
       <entryGroups/>
       <modifiers>
@@ -1471,30 +1376,11 @@
           </conditionGroups>
         </modifier>
       </modifiers>
-      <rules>
-        <rule id="f9ca3b4f-1e1b-1158-9768-481caf2796ac" name="Independent Character" hidden="false" page="0">
-          <modifiers/>
-        </rule>
-        <rule id="6200468e-1e07-c623-ba2c-66167dcee745" name="Chapter Tactics (Ultramarines)" hidden="false" page="0">
-          <modifiers/>
-        </rule>
-        <rule id="97d5114b-0dac-413e-e91b-d3ad49f7c772" name="Preferred Enemy (Tyranids)" hidden="false" page="0">
-          <modifiers/>
-        </rule>
-        <rule id="5ac1b7ff-ef0e-c8a8-8d28-b5f3aafe9a1f" name="Zealot" hidden="false" page="0">
-          <modifiers/>
-        </rule>
-        <rule id="267e1538-3bfc-3b47-07b9-a332a30a19fc" name="Feel No Pain" hidden="false" page="0">
-          <modifiers/>
-        </rule>
-        <rule id="801cd86b-f977-40a0-4808-ef7aef8f1134" name="Warlord Trait: Angel of Death" hidden="false" page="0">
-          <modifiers/>
-        </rule>
-      </rules>
+      <rules/>
       <profiles>
-        <profile id="277237ec-e36b-7276-3ac2-4e0180b5415b" profileTypeId="556e697423232344415441232323" name="Ortan Cassius" hidden="false" book="Codex: Space Marines" page="108">
+        <profile id="277237ec-e36b-7276-3ac2-4e0180b5415b" profileTypeId="556e697423232344415441232323" name="Chaplain Cassius" hidden="false" book="Codex: Space Marines (2013)" page="108">
           <characteristics>
-            <characteristic characteristicId="556e6974205479706523232344415441232323" name="Unit Type" value="Infantry"/>
+            <characteristic characteristicId="556e6974205479706523232344415441232323" name="Unit Type" value="Infantry (Character)"/>
             <characteristic characteristicId="575323232344415441232323" name="WS" value="5"/>
             <characteristic characteristicId="425323232344415441232323" name="BS" value="4"/>
             <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
@@ -1509,13 +1395,50 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="9db0bcd2-a6de-a67f-3009-11f5d20436bf" targetId="26629c0a-c3a2-601d-f32f-3080e4a0c362" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="cdcdac55-fbeb-0007-1deb-0555aabcdf74" targetId="7878fe8e-6f1a-b1b7-5309-3439c1516062" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ca1cf51f-468a-f57c-f6b4-6463d923bc15" targetId="6e071b9e-25bf-6dba-4ea6-f9bdf276b069" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d13c6e58-ab8b-9545-f7f7-0929dcd6f82d" targetId="389d14b5-b0fe-f562-21e7-cd96b376e48f" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="bea7a7f8-57db-a929-f2d0-dd157f28a492" targetId="a00cebe3-74cd-a4c1-885b-a9df668c0341" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c8d0ddce-67c8-f04c-c7ab-d0c4e739eb25" targetId="8bb88d16-097e-98c6-e838-cf2c1d8ec420" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="2ff6ed6d-f7d2-0ea5-993d-afaf2369642a" targetId="b814c68b-dabd-1915-e612-b42eed918fc7" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="7012b9dd-166b-aa34-f3e4-6a74ab58ecc4" targetId="169954a7-d085-4769-42b0-c0aba750a597" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="63e4d517-d488-b534-cd7b-0d724a6ffe5a" targetId="8b5a3806-384d-dbf8-84b5-95e55a15fd5c" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
     </entry>
-    <entry id="2514fc9b-7f93-c10a-88bf-523b930da01f" name="Chaplain Grimaldus" points="185.0" categoryId="485123232344415441232323" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="0" collective="false" page="0">
+    <entry id="2514fc9b-7f93-c10a-88bf-523b930da01f" name="Chaplain Grimaldus" points="185.0" categoryId="485123232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="0" collective="false" book="Codex: Space Marines (2013)" page="117">
       <entries>
-        <entry id="b9eac9bc-d783-e667-1c00-22270531c3c8" name="Cenobyte Servitors" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="b9eac9bc-d783-e667-1c00-22270531c3c8" name="Cenobyte Servitors" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries>
-            <entry id="6b802058-8b33-3ac9-9ed4-2b9e2b2c9a1e" name="Cenobyte Servitors" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="3" maxSelections="5" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+            <entry id="6b802058-8b33-3ac9-9ed4-2b9e2b2c9a1e" name="Cenobyte Servitors" points="10.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="5" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -1527,12 +1450,12 @@
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="e87cf900-0b72-38ef-852c-9c972d0b309b" name="Relics of Helsreach" hidden="false" page="0">
+            <rule id="e87cf900-0b72-38ef-852c-9c972d0b309b" name="Relics of Helsreach" hidden="false" book="Codex: Space Marines (2013)" page="117">
               <modifiers/>
             </rule>
           </rules>
           <profiles>
-            <profile id="ba0a6c38-77e7-030f-a235-753fe44171aa" profileTypeId="556e697423232344415441232323" name="Cenobyte Servitors" hidden="false" page="0">
+            <profile id="ba0a6c38-77e7-030f-a235-753fe44171aa" profileTypeId="556e697423232344415441232323" name="Cenobyte Servitors" hidden="false" book="Codex: Space Marines (2013)" page="117">
               <characteristics>
                 <characteristic characteristicId="556e6974205479706523232344415441232323" name="Unit Type" value="Infantry"/>
                 <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
@@ -1551,111 +1474,20 @@
           </profiles>
           <links/>
         </entry>
-      </entries>
-      <entryGroups>
-        <entryGroup id="0b6a945b-8c84-b6da-acf9-e324e751c546" name="Basic Wargear" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
-          <entries>
-            <entry id="63b8d06d-75bc-1ab6-77f0-2bf6a7bdbfbe" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="bec88a4f-45fc-ab1e-0f4e-6229db7d14a2" profileTypeId="57617267656172204974656d23232344415441232323" name="Power Armour" hidden="false" page="0">
-                  <characteristics>
-                    <characteristic characteristicId="4465736372697074696f6e23232344415441232323" name="Description" value="Standard Space Marine Power Armour.  Confers a 3+ Sv"/>
-                    <characteristic characteristicId="506723232344415441232323" name="Pg"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-            <entry id="9352d120-c910-ce1f-e20c-e61d0adb6d71" name="Frag and Krak Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="74cdef7d-0277-01f6-2c84-0d8c1d26d162" profileTypeId="576561706f6e23232344415441232323" name="Frag Grenades" hidden="false" book="BRB" page="61">
-                  <characteristics>
-                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="8&quot;"/>
-                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="3"/>
-                    <characteristic characteristicId="415023232344415441232323" name="AP" value="-"/>
-                    <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Assault 1, Blast, Don&apos;t suffer Initive penalty for charging through cover"/>
-                    <characteristic characteristicId="506723232344415441232323" name="Pg" value="61"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-                <profile id="cabcb3c6-a3d6-3524-1c83-bfcf162ceaaa" profileTypeId="576561706f6e23232344415441232323" name="Krak Grenades" hidden="false" book="BRB" page="62">
-                  <characteristics>
-                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="8&quot; (thrown)/-(Melee)"/>
-                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="6"/>
-                    <characteristic characteristicId="415023232344415441232323" name="AP" value="4"/>
-                    <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Assault 1(Thrown)/Only on Vehicles and MCs (Melee)"/>
-                    <characteristic characteristicId="506723232344415441232323" name="Pg" value="62"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-            <entry id="12ecb515-0f87-09ec-41aa-66b99ae8c074" name="Crozius Arcanum" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="b9b5d31b-e4fb-c275-98c7-84c6c7f2b50d" profileTypeId="576561706f6e23232344415441232323" name="Crozius Arcanum" hidden="false" book="BRB" page="61">
-                  <characteristics>
-                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="-"/>
-                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="+2"/>
-                    <characteristic characteristicId="415023232344415441232323" name="AP" value="4"/>
-                    <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Melee, Concussive (replaces chain sword in the options)"/>
-                    <characteristic characteristicId="506723232344415441232323" name="Pg" value="61"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-            <entry id="1d2a6a6d-8fe5-6f74-9bb4-fb2264fe27d7" name="Rosarius" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="35ee1188-e69b-2fac-7b90-0d4335a4d9dc" targetId="8bb88d16-097e-98c6-e838-cf2c1d8ec420" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="4765b585-6c2f-ed75-cf77-f879b6bd139e" name="Plasma Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="2267e3ad-c2cf-7688-3a5a-a578b399cb2f" profileTypeId="576561706f6e23232344415441232323" name="Plasma Pistol (Master-crafted)" hidden="false" book="BRB" page="57">
-                  <characteristics>
-                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="12&quot;"/>
-                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="7"/>
-                    <characteristic characteristicId="415023232344415441232323" name="AP" value="2"/>
-                    <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Pistol, Master-crafted"/>
-                    <characteristic characteristicId="506723232344415441232323" name="Pg" value="57"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-          </entries>
+        <entry id="b2979069-9329-523c-a6ce-eed0640bc576" name="Plasma Pistol (Master-crafted)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
           <entryGroups/>
           <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="f0079eb8-9b32-fb1b-95c2-1bbdeaf647da" targetId="79a1731b-d6c2-93b4-0bb1-c6d68d365c24" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
       <modifiers>
         <modifier type="set" field="maxInRoster" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions/>
@@ -1670,24 +1502,12 @@
         </modifier>
       </modifiers>
       <rules>
-        <rule id="33e577a1-3cc6-77fb-d0ca-b45478dbb64e" name="Chapter Tactics (Black Templars)" hidden="false" page="0">
-          <modifiers/>
-        </rule>
-        <rule id="d17b9cd0-d1de-4ee9-e6cd-e7b2dba5bbe5" name="Crusade of Wrath" hidden="false" page="0">
-          <modifiers/>
-        </rule>
-        <rule id="59dc93df-5261-11a2-8bfa-54304d1d8dea" name="Independent Character" hidden="false" page="0">
-          <modifiers/>
-        </rule>
-        <rule id="f142a77d-9549-346a-6536-4d01678dc121" name="Unmatched Zeal" hidden="false" page="0">
-          <modifiers/>
-        </rule>
-        <rule id="95e41cb9-7002-f458-b79a-0e755e959ddd" name="Warlord Trait: Rites of War" hidden="false" page="0">
+        <rule id="f142a77d-9549-346a-6536-4d01678dc121" name="Unmatched Zeal" hidden="false" book="Codex: Space Marines (2013)" page="117">
           <modifiers/>
         </rule>
       </rules>
       <profiles>
-        <profile id="4aee0c29-1c0a-8cee-fdcf-7c91c0a9ff11" profileTypeId="556e697423232344415441232323" name="Chaplain Grimaldus" hidden="false" book="Codex: Space Marines" page="117">
+        <profile id="4aee0c29-1c0a-8cee-fdcf-7c91c0a9ff11" profileTypeId="556e697423232344415441232323" name="Chaplain Grimaldus" hidden="false" book="Codex: Space Marines (2013)" page="117">
           <characteristics>
             <characteristic characteristicId="556e6974205479706523232344415441232323" name="Unit Type" value="Infantry (Character)"/>
             <characteristic characteristicId="575323232344415441232323" name="WS" value="5"/>
@@ -1704,7 +1524,32 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="66d4e765-e9ed-63e7-c46a-497088918ccc" targetId="04226a8c-0286-ba9d-e1a9-258311f45541" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="99d2f3b7-0b0b-cff1-f02d-c0d85648bbb3" targetId="fa329091-b504-3de4-0095-afc100c19a1e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4f9d09a7-6439-d8a0-3154-f7456ea84b15" targetId="389d14b5-b0fe-f562-21e7-cd96b376e48f" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="be4b33f4-b569-b3a6-a4b3-34193a407cf4" targetId="6e071b9e-25bf-6dba-4ea6-f9bdf276b069" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="05241a59-f965-a4c6-ae5c-697f32220fd2" targetId="dbeda450-5b7a-98fa-65c0-e16fce7a277e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ff2baf88-1ecf-54e3-8010-cb3958ed773c" targetId="b814c68b-dabd-1915-e612-b42eed918fc7" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="920f2eb7-c600-8b10-6be8-4a039158979f" targetId="169954a7-d085-4769-42b0-c0aba750a597" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="f0289024-53e5-0f2a-997b-899d434e5af3" targetId="8bb88d16-097e-98c6-e838-cf2c1d8ec420" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="e0fe8ddf-0bf0-ccf9-9bcc-af9d4726970d" name="Chaplain Ivanus Enkomi (IA12)" points="155.0" categoryId="485123232344415441232323" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries/>
@@ -13644,6 +13489,18 @@
       <modifiers/>
     </rule>
     <rule id="389d14b5-b0fe-f562-21e7-cd96b376e48f" name="Zealot" hidden="false" page="0">
+      <modifiers/>
+    </rule>
+    <rule id="a00cebe3-74cd-a4c1-885b-a9df668c0341" name="Preferred Enemy (Tyranids)" hidden="false" page="0">
+      <modifiers/>
+    </rule>
+    <rule id="04226a8c-0286-ba9d-e1a9-258311f45541" name="Chapter Tactics (Black Templars)" hidden="false" page="0">
+      <modifiers/>
+    </rule>
+    <rule id="fa329091-b504-3de4-0095-afc100c19a1e" name="Warlord Trait: Rites of War" hidden="false" page="0">
+      <modifiers/>
+    </rule>
+    <rule id="dbeda450-5b7a-98fa-65c0-e16fce7a277e" name="It Will Not Die" hidden="false" page="0">
       <modifiers/>
     </rule>
   </sharedRules>
